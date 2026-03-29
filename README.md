@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" style="width:100%; margin:0; padding:0;">
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Engineer" alt="Animated typing subtitle: greeting, name, and taglines" />
 
@@ -19,31 +19,29 @@
 
 ## Snapshot
 
-<table style="width:100%; table-layout:fixed; border-collapse:collapse;">
-  <tr>
-    <td align="center" valign="top" width="33%" style="padding:0; margin:0;">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" width="100%" style="display:block; width:100%; height:auto;" />
-    </td>
-    <td align="center" valign="top" width="33%" style="padding:0; margin:0;">
-      <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="100%" style="display:block; width:100%; height:auto;" />
-    </td>
-    <td align="center" valign="top" width="33%" style="padding:0; margin:0;">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" width="100%" style="display:block; width:100%; height:auto;" />
-    </td>
-  </tr>
-</table>
+<div align="center" style="width:100%; display:flex; flex-wrap:wrap; justify-content:center; align-items:stretch; gap:12px; border:none; margin:0; padding:0;">
+  <div style="flex:1 1 30%; min-width:220px; max-width:100%; display:flex; align-items:center; justify-content:center; margin:0; padding:0; border:none;">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" width="100%" style="display:block; width:100%; max-width:100%; height:auto; border:none;" />
+  </div>
+  <div style="flex:1 1 30%; min-width:220px; max-width:100%; display:flex; align-items:center; justify-content:center; margin:0; padding:0; border:none;">
+    <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="100%" style="display:block; width:100%; max-width:100%; height:auto; border:none;" />
+  </div>
+  <div style="flex:1 1 30%; min-width:220px; max-width:100%; display:flex; align-items:center; justify-content:center; margin:0; padding:0; border:none;">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" width="100%" style="display:block; width:100%; max-width:100%; height:auto; border:none;" />
+  </div>
+</div>
 
 
 ### Contributions
 
 <div align="center">
 
-<img alt="Activity graph: last year of contributions" src="https://github-readme-activity-graph.vercel.app/graph?username=stuchain&theme=tokyo-night&hide_border=true&area=true" width="100%" style="display:block; width:100%; height:auto;" />
+<img alt="Activity graph: last year of contributions" src="https://github-readme-activity-graph.vercel.app/graph?username=stuchain&theme=tokyo-night&hide_border=true&area=true" width="100%" style="display:block; width:100%; max-width:100%; height:auto;" />
 
-<picture>
+<picture style="display:block; width:100%; margin:0; padding:0;">
   <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg" />
-  <img alt="Snake animation over the contribution grid" src="./dist/github-snake.svg" width="100%" style="display:block; width:100%; height:auto;" />
+  <img alt="Snake animation over the contribution grid" src="./dist/github-snake.svg" width="100%" style="display:block; width:100%; max-width:100%; height:auto;" />
 </picture>
 
 </div>
