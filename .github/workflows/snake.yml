@@ -28,11 +28,11 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Match GitHub contribution grid greens (light + dark heatmaps). See Platane/snk color_dots (5 levels + snake).
-          # Light: empty → … → busiest; dark: same idea for github-dark theme.
+          # Blue / periwinkle / violet — aligned with github-readme-activity-graph (tokyo-night) above the snake.
+          # color_dots: empty → busiest (5 levels). color_snake: head color.
           outputs: |
-            dist/github-snake.svg?color_dots=%23ebedf0,%239be9a8,%2340c463,%2330a14e,%23216e39&color_snake=%2330a14e
-            dist/github-snake-dark.svg?color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2339d353&color_snake=%2339d353
+            dist/github-snake.svg?color_dots=%23f8fafc,%23e0e7ff,%23c7d2fe,%23a5b4fc,%23818cf8&color_snake=%237a95f5
+            dist/github-snake-dark.svg?color_dots=%231a1b27,%233d4f73,%23565f89,%237aa2f7,%23bb9af7&color_snake=%237aa2f7
 
       - name: Commit snake assets
         uses: stefanzweifel/git-auto-commit-action@v5
