@@ -5,9 +5,7 @@
 
 <div align="center">
 
-# Hi, I'm **Stelios**
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Full-stack+builder;Open+source+%26+clean+UI;Ship+often%2C+measure%2C+iterate" alt="Animated typing subtitle: greeting, name, and taglines" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Developer" alt="Animated typing subtitle: greeting, name, and taglines" />
 
 [![Profile views](https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat)](https://github.com/stuchain)
 [![GitHub followers](https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a)](https://github.com/stuchain?tab=followers)
@@ -23,18 +21,18 @@
 <table>
   <tr>
     <td align="center" valign="top" width="33%">
-      <img src="https://github-readme-stats.vercel.app/api?username=stuchain&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub stats: totals, streak context, and contribution highlights" width="100%" />
+      <img src="https://readme-stats-github.vercel.app/api?username=stuchain&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub stats: totals, streak context, and contribution highlights" width="100%" />
     </td>
     <td align="center" valign="top" width="33%">
       <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="100%" />
     </td>
     <td align="center" valign="top" width="33%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stuchain&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most used languages on GitHub, compact layout" width="100%" />
+      <img src="https://readme-stats-github.vercel.app/api/top-langs/?username=stuchain&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most used languages on GitHub, compact layout" width="100%" />
     </td>
   </tr>
 </table>
 
-> **Note:** Public stats APIs can rate-limit. If cards break often, fork [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and point images to your deployment.
+> **Note:** The official public instance `github-readme-stats.vercel.app` often returns **503** when overloaded. These cards use a third-party mirror (`readme-stats-github.vercel.app`). If images break again, deploy your own fork of [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) to Vercel and swap the host in the two `<img>` URLs above.
 
 <div align="center">
 
