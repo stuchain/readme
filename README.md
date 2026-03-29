@@ -19,16 +19,16 @@
 
 ## Snapshot
 
-<table>
+<table style="width:100%; table-layout:fixed; border-collapse:collapse;">
   <tr>
-    <td align="center" valign="top" width="33%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" width="100%" />
+    <td align="center" valign="top" width="33%" style="padding:0; margin:0;">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" width="100%" style="display:block; width:100%; height:auto;" />
     </td>
-    <td align="center" valign="top" width="33%">
-      <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="100%" />
+    <td align="center" valign="top" width="33%" style="padding:0; margin:0;">
+      <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="100%" style="display:block; width:100%; height:auto;" />
     </td>
-    <td align="center" valign="top" width="33%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" width="100%" />
+    <td align="center" valign="top" width="33%" style="padding:0; margin:0;">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" width="100%" style="display:block; width:100%; height:auto;" />
     </td>
   </tr>
 </table>
@@ -38,12 +38,12 @@
 
 <div align="center">
 
-![Activity graph: last year of contributions](https://github-readme-activity-graph.vercel.app/graph?username=stuchain&theme=tokyo-night&hide_border=true&area=true)
+<img alt="Activity graph: last year of contributions" src="https://github-readme-activity-graph.vercel.app/graph?username=stuchain&theme=tokyo-night&hide_border=true&area=true" width="100%" style="display:block; width:100%; height:auto;" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg" />
-  <img alt="Snake animation over the contribution grid" src="./dist/github-snake.svg" width="100%" />
+  <img alt="Snake animation over the contribution grid" src="./dist/github-snake.svg" width="100%" style="display:block; width:100%; height:auto;" />
 </picture>
 
 </div>
@@ -52,11 +52,59 @@
 
 ## Tech stack
 
-<p align="center"><sub>Core tools and ecosystems I build with — icons use a single <strong>dark</strong> theme for a consistent grid.</sub></p>
+<p align="center"><sub>Four layouts below — same content, different presentation. <strong>Pick one</strong> and delete or collapse the other three when you’re ready.</sub></p>
+
+<details open>
+<summary><strong>Option 1 — Tokyo-night badge rows</strong> <em>(Shields.io, matches profile blues)</em></summary>
+
+<p align="center">
+  <strong>Languages</strong><br />
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" /></a>
+  <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000&labelColor=1a1b27" alt="JavaScript" /></a>
+  <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" /></a>
+</p>
+<p align="center">
+  <strong>Web &amp; UI</strong><br />
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB&labelColor=1a1b27" alt="React" /></a>
+  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=1a1b27" alt="Next.js" /></a>
+  <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white&labelColor=1a1b27" alt="Streamlit" /></a>
+  <img src="https://img.shields.io/badge/HTML%2FCSS-7aa2f7?style=flat-square&labelColor=1a1b27" alt="HTML/CSS" />
+</p>
+<p align="center">
+  <strong>Backend &amp; data</strong><br />
+  <img src="https://img.shields.io/badge/Rust%20(axum%2C%20tokio)-7aa2f7?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust axum tokio" />
+  <img src="https://img.shields.io/badge/Python%20services-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python services" />
+  <a href="https://www.sqlite.org/"><img src="https://img.shields.io/badge/SQLite%20(sqlx)-003B57?style=flat-square&logo=sqlite&logoColor=white&labelColor=1a1b27" alt="SQLite sqlx" /></a>
+  <img src="https://img.shields.io/badge/MQTT%20pipelines-7aa2f7?style=flat-square&labelColor=1a1b27" alt="MQTT" />
+</p>
+<p align="center">
+  <strong>Chain &amp; security</strong><br />
+  <img src="https://img.shields.io/badge/Hardhat-F7DF1E?style=flat-square&labelColor=1a1b27" alt="Hardhat" />
+  <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" /></a>
+  <img src="https://img.shields.io/badge/Local%20chains-7aa2f7?style=flat-square&labelColor=1a1b27" alt="Local chains" />
+  <a href="https://solana.com/"><img src="https://img.shields.io/badge/Solana%20demos-9945FF?style=flat-square&logo=solana&logoColor=white&labelColor=1a1b27" alt="Solana" /></a>
+  <img src="https://img.shields.io/badge/Crypto%20%26%20protocols-7aa2f7?style=flat-square&labelColor=1a1b27" alt="Cryptography" />
+</p>
+<p align="center">
+  <strong>DevOps</strong><br />
+  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=1a1b27" alt="Docker" /></a>
+  <a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white&labelColor=1a1b27" alt="GitHub Actions" /></a>
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white&labelColor=1a1b27" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="bash" />
+</p>
+
+</details>
+
+<details open>
+<summary><strong>Option 2 — Skill icon grid + table</strong> <em>(logo wall + structured list)</em></summary>
+
+<p align="center"><sub>Icons: single <strong>dark</strong> theme for a consistent grid.</sub></p>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,rust,ts,js,react,nextjs,solidity,solana,nodejs,flask,docker,git,linux,sqlite&perline=7&theme=dark" alt="Python, Rust, TypeScript, JavaScript, React, Next.js, Solidity, Solana, Node.js, Flask, Docker, Git, Linux, SQLite" />
+<img src="https://skillicons.dev/icons?i=py,rust,ts,js,react,nextjs,solidity,solana,nodejs,streamlit,docker,git,linux,sqlite&perline=7&theme=dark" alt="Python, Rust, TypeScript, JavaScript, React, Next.js, Solidity, Solana, Node.js, Streamlit, Docker, Git, Linux, SQLite" />
 
 </div>
 
@@ -84,6 +132,68 @@
 <td valign="top">Docker · GitHub Actions · PowerShell · bash</td>
 </tr>
 </table>
+
+</details>
+
+<details open>
+<summary><strong>Option 3 — Two-column category cards</strong> <em>(compact HTML, no external images)</em></summary>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+<p><strong>Languages</strong><br />Python · Rust · TypeScript · JavaScript · Solidity</p>
+<p><strong>Web &amp; UI</strong><br />React · Next.js (App Router) · Streamlit · HTML/CSS</p>
+<p><strong>Backend &amp; data</strong><br />Rust (axum, tokio) · Python services · SQLite (sqlx) · MQTT pipelines</p>
+
+</td>
+<td width="50%" valign="top">
+
+<p><strong>Chain &amp; security</strong><br />Hardhat · Solidity · local chains · Solana demos · cryptography &amp; protocols</p>
+<p><strong>DevOps</strong><br />Docker · GitHub Actions · PowerShell · bash</p>
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<details open>
+<summary><strong>Option 4 — Mermaid mindmap</strong> <em>(diagram; good for at-a-glance structure)</em></summary>
+
+```mermaid
+mindmap
+  root((Tech stack))
+    Languages
+      Python
+      Rust
+      TypeScript
+      JavaScript
+      Solidity
+    Web and UI
+      React
+      Next.js App Router
+      Streamlit
+      HTML and CSS
+    Backend and data
+      Rust axum tokio
+      Python services
+      SQLite sqlx
+      MQTT pipelines
+    Chain and security
+      Hardhat
+      Solidity
+      Local chains
+      Solana demos
+      Cryptography and protocols
+    DevOps
+      Docker
+      GitHub Actions
+      PowerShell
+      bash
+```
+
+</details>
 
 ---
 
