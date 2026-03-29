@@ -1,0 +1,44 @@
+name: Update featured projects
+
+on:
+  schedule:
+    - cron: "5 5 * * 1"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate_featured.py"
+      - ".github/workflows/update-featured.yml"
+
+concurrency:
+  group: readme-content-${{ github.repository }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  featured:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate Featured section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          EXCLUDE_REPOS: readme,portfolio
+          MAX_FEATURED: "6"
+          MAX_TOPICS: "3"
+        run: python scripts/generate_featured.py
+
+      - name: Commit README
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: update featured projects from GitHub API"
+          file_pattern: README.md

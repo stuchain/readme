@@ -1,0 +1,34 @@
+name: Generate metrics SVG
+
+on:
+  schedule:
+    - cron: "20 4 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: readme-content-${{ github.repository }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate GitHub metrics
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: assets/github-metrics.svg
+          template: classic
+          base: header, activity, community, repositories
+          plugin_isocalendar: yes
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          config_timezone: Europe/Athens
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update github-metrics.svg"
