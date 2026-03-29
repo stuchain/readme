@@ -25,14 +25,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate snake SVGs
-        uses: Platane/snk@v3
+        uses: Platane/snk@v3.4.1
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Blue / periwinkle / violet — aligned with github-readme-activity-graph (tokyo-night) above the snake.
-          # color_dots: empty → busiest (5 levels). color_snake: head color.
-          outputs: |
-            dist/github-snake.svg?color_dots=%23f8fafc,%23e0e7ff,%23c7d2fe,%23a5b4fc,%23818cf8&color_snake=%237a95f5
-            dist/github-snake-dark.svg?color_dots=%231a1b27,%233d4f73,%23565f89,%237aa2f7,%23bb9af7&color_snake=%237aa2f7
+          # Double-quoted string so YAML does not treat # in hex colors as comments. Plain # matches snk README examples.
+          # Blue / periwinkle / violet — aligned with github-readme-activity-graph (tokyo-night).
+          outputs: "dist/github-snake.svg?color_dots=#f8fafc,#e0e7ff,#c7d2fe,#a5b4fc,#818cf8&color_snake=#7a95f5\ndist/github-snake-dark.svg?color_dots=#1a1b27,#3d4f73,#565f89,#7aa2f7,#bb9af7&color_snake=#7aa2f7"
 
       - name: Commit snake assets
         uses: stefanzweifel/git-auto-commit-action@v5
