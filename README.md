@@ -1,26 +1,18 @@
 <!--
-  PROFILE SETUP (find/replace once)
-  ────────────────────────────────
-  • stuchain → your exact GitHub login (also the profile repo name)
-  • YOUR_DISPLAY_NAME    → how you want to be called in the typing animation (URL-encode spaces as + or %20 in the typing SVG URL if needed)
-  • YOUR_SITE_URL, social URLs in the “Connect” row
-  • Featured repos: replace owner/repo and descriptions
-  • Blog workflow: edit .github/workflows/blog-post-workflow.yml → feed_list (comma-separated RSS URLs)
-  • After first push: Actions → “Generate contribution snake” → Run workflow (or wait for cron)
-  • Repo Settings → Actions → General → Workflow permissions: Read and write
-  • Optional WakaTime card: deploy your own github-readme-stats (see collapsible section below)
+  Optional tweaks: typing SVG lines · blog feed_list in .github/workflows/blog-post-workflow.yml
+  · Actions: workflow permissions Read and write; run “Generate contribution snake” once if dist/ is empty
 -->
 
 <div align="center">
 
 # Hi, I'm **Stelios**
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+YOUR_DISPLAY_NAME;Full-stack+builder;Open+source+%26+clean+UI;Ship+often%2C+measure%2C+iterate" alt="Animated typing subtitle: greeting, name, and taglines" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Full-stack+builder;Open+source+%26+clean+UI;Ship+often%2C+measure%2C+iterate" alt="Animated typing subtitle: greeting, name, and taglines" />
 
 [![Profile views](https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat)](https://github.com/stuchain)
 [![GitHub followers](https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a)](https://github.com/stuchain?tab=followers)
 
-[Website](https://YOUR_SITE_URL) · [LinkedIn](https://www.linkedin.com/in/YOUR_HANDLE/) · [X](https://x.com/YOUR_HANDLE) · [Email](mailto:you@example.com)
+[Portfolio](https://stuchain.github.io/portfolio) · [LinkedIn](https://www.linkedin.com/in/stelios-vasileiou/) · [Email](mailto:stelios.vasiliou@icloud.com)
 
 </div>
 
@@ -64,16 +56,17 @@
 
 <div align="center">
 
-![Skills: TypeScript, JavaScript, React, Node, Python, Go, Docker, AWS, PostgreSQL, Redis, Git, Linux](https://skillicons.dev/icons?i=ts,js,react,nodejs,py,go,docker,aws,postgres,redis,git,linux&perline=6)
+![Skills from repos: Python, Rust, TypeScript, JavaScript, React, Next.js, Solidity, Solana, Node.js, Flask, Docker, Git, Linux, SQLite](https://skillicons.dev/icons?i=py,rust,ts,js,react,nextjs,solidity,solana,nodejs,flask,docker,git,linux,sqlite&perline=7)
 
 </div>
 
 | Focus | Tools |
 | ----- | ----- |
-| Languages | TypeScript, JavaScript, Python, Go |
-| Frontend | React, modern CSS, accessibility-minded UI |
-| Backend | Node, APIs, PostgreSQL, Redis |
-| Platform | Docker, cloud deploys, GitHub Actions |
+| Languages | Python, Rust, TypeScript, JavaScript, Solidity |
+| Web & UI | React, Next.js (App Router), Streamlit, HTML/CSS |
+| Backend & data | Rust (axum, tokio), Python (Flask, services), SQLite (sqlx), MQTT pipelines |
+| Chain & security | Hardhat/Solidity, local Ethereum tooling, Solana-style demos, cryptography & protocols |
+| DevOps | Docker, GitHub Actions, scripting (PowerShell/bash) |
 
 ---
 
@@ -81,13 +74,15 @@
 
 | Project | What it is |
 | ------- | ---------- |
-| [**stuchain / awesome-thing**](https://github.com/stuchain/awesome-thing) | One-line pitch — problem solved, who it is for. |
-| [**stuchain / toolkit**](https://github.com/stuchain/toolkit) | CLI, library, or template you want visitors to try first. |
-| [**stuchain / experiment**](https://github.com/stuchain/experiment) | R&D, demo, or OSS you are actively evolving. |
+| [**stuchain / CuePoint**](https://github.com/stuchain/CuePoint) | DJs: clean and enrich Rekordbox libraries with Beatport metadata, fast matching, and an auditable review workflow. |
+| [**stuchain / iot-oracle-gateway**](https://github.com/stuchain/iot-oracle-gateway) | End-to-end IoT telemetry: Python simulator over MQTT, oracle with EWMA/z-score anomalies, optional Solidity anchoring, Streamlit dashboard. |
+| [**stuchain / ctf-maze-arena**](https://github.com/stuchain/ctf-maze-arena) | Maze generation, algorithm visualization, and solver comparison — Rust (axum) + TypeScript/Next.js + SQLite. |
+| [**stuchain / mini-secure-channel-solana**](https://github.com/stuchain/mini-secure-channel-solana) | Six-phase secure channel: X25519, MITM, Ed25519, ChaCha20-Poly1305 AEAD, Solana-style decentralized key verification. |
 
-[![Stars for awesome-thing](https://img.shields.io/github/stars/stuchain/awesome-thing?style=flat&logo=github&color=0f172a)](https://github.com/stuchain/awesome-thing)
-[![Stars for toolkit](https://img.shields.io/github/stars/stuchain/toolkit?style=flat&logo=github&color=0f172a)](https://github.com/stuchain/toolkit)
-[![Stars for experiment](https://img.shields.io/github/stars/stuchain/experiment?style=flat&logo=github&color=0f172a)](https://github.com/stuchain/experiment)
+[![Stars for CuePoint](https://img.shields.io/github/stars/stuchain/CuePoint?style=flat&logo=github&color=0f172a)](https://github.com/stuchain/CuePoint)
+[![Stars for iot-oracle-gateway](https://img.shields.io/github/stars/stuchain/iot-oracle-gateway?style=flat&logo=github&color=0f172a)](https://github.com/stuchain/iot-oracle-gateway)
+[![Stars for ctf-maze-arena](https://img.shields.io/github/stars/stuchain/ctf-maze-arena?style=flat&logo=github&color=0f172a)](https://github.com/stuchain/ctf-maze-arena)
+[![Stars for mini-secure-channel-solana](https://img.shields.io/github/stars/stuchain/mini-secure-channel-solana?style=flat&logo=github&color=0f172a)](https://github.com/stuchain/mini-secure-channel-solana)
 
 <sub>Pin 6 repos on your GitHub profile for the row under this README — keep names and descriptions aligned with what you highlight here.</sub>
 
@@ -124,14 +119,16 @@ flowchart LR
 
 ![GitHub profile trophy grid](https://github-profile-trophy.vercel.app/?username=stuchain&theme=tokyonight&no-frame=true&column=7&margin-w=6&margin-h=6)
 
-### Badge strip (swap for your stack)
+### Badge strip
 
-[![MDN](https://img.shields.io/badge/docs-MDN-000?style=flat&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![Node](https://img.shields.io/badge/Node-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)](https://soliditylang.org/)
+[![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat&logo=solana&logoColor=white)](https://solana.com/)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
 
 ### WakaTime (optional)
 
