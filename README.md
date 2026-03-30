@@ -18,17 +18,11 @@
 
 
 ## Snapshot
-<div align="center" style="display:flex; gap:8px; align-items:stretch;">
-  <div style="flex:1; height:140px;">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" style="display:block; width:100%; height:100%; object-fit:fill; border:none;" />
-  </div>
-  <div style="flex:1; height:140px;">
-    <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" style="display:block; width:100%; height:100%; object-fit:fill; border:none;" />
-  </div>
-  <div style="flex:1; height:140px;">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" style="display:block; width:100%; height:100%; object-fit:fill; border:none;" />
-  </div>
-</div>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" width="32%" />
+  <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" width="32%" />
+</p>
 
 
 ## Repositories
