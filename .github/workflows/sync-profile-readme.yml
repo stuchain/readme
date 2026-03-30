@@ -15,22 +15,31 @@ permissions:
 
 jobs:
   sync:
-    if: ${{ secrets.PROFILE_SYNC_TOKEN != '' }}
     runs-on: ubuntu-latest
+    env:
+      PROFILE_SYNC_TOKEN: ${{ secrets.PROFILE_SYNC_TOKEN }}
     steps:
+      - name: Skip when token missing
+        if: ${{ env.PROFILE_SYNC_TOKEN == '' }}
+        run: |
+          echo "PROFILE_SYNC_TOKEN is not set; skipping profile sync."
+
       - name: Checkout source repo
+        if: ${{ env.PROFILE_SYNC_TOKEN != '' }}
         uses: actions/checkout@v4
         with:
           path: source
 
       - name: Checkout profile repo
+        if: ${{ env.PROFILE_SYNC_TOKEN != '' }}
         uses: actions/checkout@v4
         with:
           repository: stuchain/stuchain
-          token: ${{ secrets.PROFILE_SYNC_TOKEN }}
+          token: ${{ env.PROFILE_SYNC_TOKEN }}
           path: profile
 
       - name: Sync README and snake assets
+        if: ${{ env.PROFILE_SYNC_TOKEN != '' }}
         run: |
           cp source/README.md profile/README.md
           mkdir -p profile/dist
@@ -38,6 +47,7 @@ jobs:
           cp source/dist/github-snake-dark.svg profile/dist/github-snake-dark.svg
 
       - name: Commit and push when changed
+        if: ${{ env.PROFILE_SYNC_TOKEN != '' }}
         run: |
           cd profile
           git config user.name "github-actions[bot]"
