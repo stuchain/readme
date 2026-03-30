@@ -50,7 +50,7 @@
 
 ---
 ## Repositories
-
+<!--->
 <div hidden>
 <p align="center">
   <sub>Auto-filled from your <strong>public</strong> repos (top by ⭐; forks &amp; archived skipped). This profile repo and <code>portfolio</code> are excluded. <strong>Pin</strong> repos to mirror them here.</sub>
@@ -128,6 +128,9 @@ A web arena for maze generation, algorithm visualization, and solver comparison.
 </tr>
 </table>
 <!-- FEATURED-OPTION2:END -->
+
+---
+
 ## Tech stack
 
 
@@ -170,58 +173,6 @@ A web arena for maze generation, algorithm visualization, and solver comparison.
 </p>
 
 ---
-
-<div hidden>
-## Now & next
-
-```mermaid
-flowchart LR
-  A[Ship] --> B[Measure]
-  B --> C[Learn]
-  C --> A
-```
-
-- **Building:** replace with your current focus.
-- **Learning:** replace with what you are digging into this quarter.
-- **Collaborating:** replace with the kinds of issues or roles you welcome.
-
----
-
-## Latest posts
-
-BLOG-POST-LIST:START
-- [AI and bots have officially taken over the internet](https://www.cnbc.com/2026/03/26/ai-bots-humans-internet.html)
-- [15 years, one server, 8GB RAM and 500k users – how Webminal refuses to die](https://community.webminal.org/t/15-years-one-server-8gb-ram-and-500k-users-how-webminal-refuses-to-die/8803)
-- [The curious case of retro demo scene graphics](https://www.datagubbe.se/aipixels/)
-- [HD Audio Driver for Windows 98SE / Me](https://github.com/andrew-hoffman/wdmhda)
-- [VHDL&#39;s Crown Jewel](https://www.sigasi.com/opinion/jan/vhdls-crown-jewel/)
-BLOG-POST-LIST:END
-
-<sub>Feeds are configured in `.github/workflows/blog-post-workflow.yml`. Replace the placeholder RSS with your blog, Dev.to, Medium export, etc.</sub>
----
-
-<details open>
-<summary><strong>Extras — trophies, badges, coding time, music, deep metrics</strong></summary>
-
-
-### Deeper metrics — [lowlighter/metrics](https://github.com/lowlighter/metrics)
-
-This repo includes a workflow that commits **SVG** into `assets/github-metrics.svg`. Until you add a token, the placeholder below is shown.
-
-1. Create a **fine-grained PAT** (or classic) with **read** access to **user** and **metadata** for your repositories; or use a classic PAT with `read:user` and `repo` as needed.
-2. In this repo: **Settings → Secrets and variables → Actions → New repository secret** → name **`METRICS_TOKEN`**, value = your PAT.
-3. Run **Actions → Generate metrics SVG → Run workflow**.
-
-<p align="center">
-  <img src="./assets/github-metrics.svg" alt="lowlighter metrics infographic" width="100%" />
-</p>
-
-<sub>Schedule: Mondays ~04:20 UTC (see <code>.github/workflows/metrics.yml</code>). Same concurrency group as other README bots so commits don’t clash.</sub>
-
-</details>
-
----
-</div>
 
 <div align="center">
 
