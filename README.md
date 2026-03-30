@@ -88,6 +88,37 @@
 </table>
 <!-- FEATURED-OPTION2:END -->
 
+<details>
+  <summary><strong>Repository card theme previews (choose one)</strong></summary>
+  <br />
+  <table width="100%">
+    <tr>
+      <td valign="top"><strong>tokyonight</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=tokyonight&hide_border=true" alt="tokyonight preview" /></td>
+      <td valign="top"><strong>radical</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=radical&hide_border=true" alt="radical preview" /></td>
+    </tr>
+    <tr>
+      <td valign="top"><strong>dracula</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=dracula&hide_border=true" alt="dracula preview" /></td>
+      <td valign="top"><strong>gruvbox</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=gruvbox&hide_border=true" alt="gruvbox preview" /></td>
+    </tr>
+    <tr>
+      <td valign="top"><strong>onedark</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=onedark&hide_border=true" alt="onedark preview" /></td>
+      <td valign="top"><strong>nightowl</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=nightowl&hide_border=true" alt="nightowl preview" /></td>
+    </tr>
+    <tr>
+      <td valign="top"><strong>algolia</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=algolia&hide_border=true" alt="algolia preview" /></td>
+      <td valign="top"><strong>merko</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=merko&hide_border=true" alt="merko preview" /></td>
+    </tr>
+    <tr>
+      <td valign="top"><strong>nord</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=nord&hide_border=true" alt="nord preview" /></td>
+      <td valign="top"><strong>dark</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=dark&hide_border=true" alt="dark preview" /></td>
+    </tr>
+    <tr>
+      <td valign="top"><strong>default</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=default&hide_border=true" alt="default preview" /></td>
+      <td valign="top"></td>
+    </tr>
+  </table>
+</details>
+
 ---
 
 ## Tech stack
