@@ -121,16 +121,21 @@ def render_section(title: str, badges: list[str]) -> str:
 
 def build_dynamic_sections(repos: list[dict]) -> list[tuple[str, list[str]]]:
     text_parts: list[str] = []
+    per_repo_texts: list[str] = []
     for r in repos:
-        text_parts.append((r.get("name") or "").lower())
-        text_parts.append((r.get("description") or "").lower())
+        local_parts: list[str] = []
+        local_parts.append((r.get("name") or "").lower())
+        local_parts.append((r.get("description") or "").lower())
         for t in (r.get("topics") or []):
-            text_parts.append(str(t).lower())
+            local_parts.append(str(t).lower())
         if r.get("language"):
-            text_parts.append(str(r["language"]).lower())
+            local_parts.append(str(r["language"]).lower())
+        repo_text = " ".join(local_parts)
+        per_repo_texts.append(repo_text)
+        text_parts.append(repo_text)
     signal_text = " ".join(text_parts)
 
-    by_section: dict[str, list[tuple[str, str]]] = {k: [] for k in SECTION_ORDER}
+    by_section: dict[str, list[tuple[int, str, str]]] = {k: [] for k in SECTION_ORDER}
     seen: set[str] = set()
     for item in TECH_CATALOG:
         name = str(item["name"])
@@ -139,12 +144,14 @@ def build_dynamic_sections(repos: list[dict]) -> list[tuple[str, list[str]]]:
         if name in seen:
             continue
         if any(tok in signal_text for tok in tokens):
-            by_section[section].append((name, str(item["badge"])))
+            score = sum(1 for rt in per_repo_texts if any(tok in rt for tok in tokens))
+            by_section[section].append((score, name, str(item["badge"])))
             seen.add(name)
 
     out: list[tuple[str, list[str]]] = []
     for section in SECTION_ORDER:
-        badges = [badge for _, badge in sorted(by_section[section], key=lambda x: x[0])]
+        ranked = sorted(by_section[section], key=lambda x: (-x[0], x[1]))
+        badges = [badge for _, _, badge in ranked]
         if badges:
             out.append((section, badges))
     return out
