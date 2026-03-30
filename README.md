@@ -67,13 +67,6 @@
 </p>
 
 CuePoint helps DJs clean and enrich Rekordbox libraries with official Beatport metadata, fast matching, and an auditable review workflow. Latest version: 0.0.2
-
-<p align="left">
-  <strong>Tags:</strong>
-  <img src="https://img.shields.io/badge/aiff-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aiff" />
-  <img src="https://img.shields.io/badge/beatport-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: beatport" />
-  <img src="https://img.shields.io/badge/dj-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: dj" />
-</p>
 </td>
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong> <strong>★ 0</strong></p>
@@ -86,13 +79,6 @@ CuePoint helps DJs clean and enrich Rekordbox libraries with official Beatport m
 </p>
 
 A collection of AUEB coursework projects by Stelios Vasileiou, covering blockchain thesis, distributed systems, web development and Python.
-
-<p align="left">
-  <strong>Tags:</strong>
-  <img src="https://img.shields.io/badge/aueb-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aueb" />
-  <img src="https://img.shields.io/badge/blockchain-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: blockchain" />
-  <img src="https://img.shields.io/badge/css-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: css" />
-</p>
 </td>
 </tr>
 <tr>
@@ -109,13 +95,6 @@ A collection of AUEB coursework projects by Stelios Vasileiou, covering blockcha
 </p>
 
 A six-phase secure channel project demonstrating X25519 key exchange, MITM attacks, Ed25519 authentication, ChaCha20-Poly1305 AEAD, and Solana-based decentralized key verification.
-
-<p align="left">
-  <strong>Tags:</strong>
-  <img src="https://img.shields.io/badge/aead-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aead" />
-  <img src="https://img.shields.io/badge/anchor-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: anchor" />
-  <img src="https://img.shields.io/badge/blockchain--authentication-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: blockchain-authentication" />
-</p>
 </td>
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/iot-oracle-gateway">iot-oracle-gateway</a></strong> <strong>★ 0</strong></p>
@@ -143,13 +122,6 @@ End-to-end IoT oracle: Python simulator publishes over MQTT; oracle aggregates, 
 </p>
 
 A web arena for maze generation, algorithm visualization, and solver comparison. Built with Rust + TypeScript.
-
-<p align="left">
-  <strong>Tags:</strong>
-  <img src="https://img.shields.io/badge/algorithms-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: algorithms" />
-  <img src="https://img.shields.io/badge/capture--the--flag-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: capture-the-flag" />
-  <img src="https://img.shields.io/badge/ctf-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: ctf" />
-</p>
 </td>
 </tr>
 </table>
