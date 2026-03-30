@@ -1,0 +1,44 @@
+name: Update tech stack
+
+on:
+  schedule:
+    - cron: "20 5 * * 1"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate_tech_stack.py"
+      - ".github/workflows/update-tech-stack.yml"
+
+concurrency:
+  group: readme-tech-stack-${{ github.repository }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  tech-stack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate Tech stack section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          EXCLUDE_REPOS: readme,portfolio
+          MAX_TECH_LANGS: "8"
+        run: python scripts/generate_tech_stack.py
+
+      - name: Commit README
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: update tech stack from GitHub API"
+          file_pattern: README.md
+
