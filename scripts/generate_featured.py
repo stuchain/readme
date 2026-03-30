@@ -65,6 +65,29 @@ def fetch_all_repos(user: str, token: str | None) -> list[dict]:
     return out
 
 
+def fetch_repo_languages(repo: dict, token: str | None) -> list[str]:
+    """
+    Return all languages for a repo, sorted by bytes desc.
+    Falls back to the repo's primary language when the API has no data.
+    """
+    url = repo.get("languages_url")
+    primary = repo.get("language")
+    if not url:
+        return [primary] if primary else []
+    try:
+        data = http_get_json(url, token)
+    except urllib.error.HTTPError:
+        return [primary] if primary else []
+    if not isinstance(data, dict) or not data:
+        return [primary] if primary else []
+
+    ordered = sorted(data.items(), key=lambda kv: kv[1], reverse=True)
+    names = [name for name, _ in ordered]
+    if not names and primary:
+        return [primary]
+    return names
+
+
 def language_badge(lang: str | None) -> str:
     if not lang:
         return ""
@@ -153,11 +176,37 @@ def render_repo_option2_cell(owner: str, r: dict, max_topics: int) -> str:
     name = r["name"]
     url = r["html_url"]
     desc = sanitize_description(r.get("description"))
+    topics = r.get("topics") or []
+    all_langs = r.get("_all_languages") or []
+
+    star_shield = (
+        f"https://img.shields.io/github/stars/{owner}/{name}"
+        f"?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950"
+    )
+
+    meta_parts = [
+        '<p align="left">',
+        '  <strong>Meta:</strong>',
+        f'  <a href="{url}"><img src="{star_shield}" alt="GitHub stars" /></a>',
+    ]
+    if all_langs:
+        meta_parts.append("  <strong>Tech:</strong>")
+        for lang in all_langs:
+            meta_parts.append(f"  {language_badge(lang)}")
+    meta_parts.append("</p>")
+
+    tags_parts: list[str] = []
+    if topics[:max_topics]:
+        tags_parts = ['<p align="left">', '  <strong>Tags:</strong>']
+        for t in topics[:max_topics]:
+            tags_parts.append(f"  {topic_badge(t)}")
+        tags_parts.append("</p>")
 
     return "\n".join(
         [
             f'<p><strong><a href="{url}">{name}</a></strong></p>',
-            repo_badges_p(owner, r, max_topics),
+            *meta_parts,
+            *(tags_parts if tags_parts else []),
             "",
             desc,
         ]
@@ -298,6 +347,8 @@ def main() -> int:
 
     filtered.sort(key=lambda x: (-(x.get("stargazers_count") or 0), x.get("pushed_at") or ""))
     picked = filtered if max_repos is None else filtered[:max_repos]
+    for repo in picked:
+        repo["_all_languages"] = fetch_repo_languages(repo, token)
 
     if not picked:
         body_option1 = "\n*No public repositories matched the filters.*\n"

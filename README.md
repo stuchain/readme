@@ -43,7 +43,7 @@
 <picture style="display:block; width:100%; margin:0; padding:0;">
   <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg" />
-  <img alt="Snake animation over the contribution grid" src="./dist/github-snake.svg" width="100%" style="display:block; width:100%; max-width:100%; height:auto;" />
+  <img alt="Snake animation over the contribution grid" src="./dist/github-snake.svg" width="100%" style="display:block; width:104%; max-width:none; height:auto; margin-left:-2%;" />
 </picture>
 
 </div>
@@ -51,13 +51,25 @@
 ---
 ## Repositories
 
+<!-- FEATURED-OPTION2:START -->
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong></p>
 <p align="left">
+  <strong>Meta:</strong>
   <a href="https://github.com/stuchain/CuePoint"><img src="https://img.shields.io/github/stars/stuchain/CuePoint?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a>
+  <strong>Tech:</strong>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white&labelColor=1a1b27" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/NSIS-64748b?style=flat-square&labelColor=1a1b27" alt="NSIS" />
+  <img src="https://img.shields.io/badge/Batchfile-64748b?style=flat-square&labelColor=1a1b27" alt="Batchfile" />
+  <img src="https://img.shields.io/badge/Makefile-64748b?style=flat-square&labelColor=1a1b27" alt="Makefile" />
+</p>
+<p align="left">
+  <strong>Tags:</strong>
   <img src="https://img.shields.io/badge/aiff-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aiff" />
   <img src="https://img.shields.io/badge/beatport-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: beatport" />
   <img src="https://img.shields.io/badge/dj-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: dj" />
@@ -68,8 +80,17 @@ CuePoint helps DJs clean and enrich Rekordbox libraries with official Beatport m
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong></p>
 <p align="left">
+  <strong>Meta:</strong>
   <a href="https://github.com/stuchain/AUEB"><img src="https://img.shields.io/github/stars/stuchain/AUEB?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a>
+  <strong>Tech:</strong>
   <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white&labelColor=1a1b27" alt="Java" />
+  <img src="https://img.shields.io/badge/TeX-64748b?style=flat-square&labelColor=1a1b27" alt="TeX" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
+</p>
+<p align="left">
+  <strong>Tags:</strong>
   <img src="https://img.shields.io/badge/aueb-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aueb" />
   <img src="https://img.shields.io/badge/blockchain-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: blockchain" />
   <img src="https://img.shields.io/badge/css-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: css" />
@@ -82,8 +103,19 @@ A collection of AUEB coursework projects by Stelios Vasileiou, covering blockcha
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/mini-secure-channel-solana">mini-secure-channel-solana</a></strong></p>
 <p align="left">
+  <strong>Meta:</strong>
   <a href="https://github.com/stuchain/mini-secure-channel-solana"><img src="https://img.shields.io/github/stars/stuchain/mini-secure-channel-solana?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a>
+  <strong>Tech:</strong>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
+  <img src="https://img.shields.io/badge/Batchfile-64748b?style=flat-square&labelColor=1a1b27" alt="Batchfile" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" />
+</p>
+<p align="left">
+  <strong>Tags:</strong>
   <img src="https://img.shields.io/badge/aead-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aead" />
   <img src="https://img.shields.io/badge/anchor-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: anchor" />
   <img src="https://img.shields.io/badge/blockchain--authentication-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: blockchain-authentication" />
@@ -94,8 +126,15 @@ A six-phase secure channel project demonstrating X25519 key exchange, MITM attac
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/iot-oracle-gateway">iot-oracle-gateway</a></strong></p>
 <p align="left">
+  <strong>Meta:</strong>
   <a href="https://github.com/stuchain/iot-oracle-gateway"><img src="https://img.shields.io/github/stars/stuchain/iot-oracle-gateway?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a>
+  <strong>Tech:</strong>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white&labelColor=1a1b27" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" />
+  <img src="https://img.shields.io/badge/Batchfile-64748b?style=flat-square&labelColor=1a1b27" alt="Batchfile" />
 </p>
 
 End-to-end IoT oracle: Python simulator publishes over MQTT; oracle aggregates, detects anomalies (EWMA/z-score), anchors hashes on-chain (Solidity/Hardhat); Streamlit dashboard for metrics.
@@ -105,8 +144,16 @@ End-to-end IoT oracle: Python simulator publishes over MQTT; oracle aggregates, 
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/ctf-maze-arena">ctf-maze-arena</a></strong></p>
 <p align="left">
+  <strong>Meta:</strong>
   <a href="https://github.com/stuchain/ctf-maze-arena"><img src="https://img.shields.io/github/stars/stuchain/ctf-maze-arena?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a>
+  <strong>Tech:</strong>
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
+</p>
+<p align="left">
+  <strong>Tags:</strong>
   <img src="https://img.shields.io/badge/algorithms-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: algorithms" />
   <img src="https://img.shields.io/badge/capture--the--flag-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: capture-the-flag" />
   <img src="https://img.shields.io/badge/ctf-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: ctf" />
