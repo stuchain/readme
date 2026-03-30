@@ -2,10 +2,12 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Engineer" alt="Animated typing subtitle: greeting, name, and taglines" />
   <p style="margin:2px 0 0; line-height:1.3;">Building full-stack systems and security-minded tooling.</p>
 
+  <!--
   <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:8px; margin-top:4px; line-height:0;">
     <a href="https://github.com/stuchain"><img src="https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat" alt="Profile views" style="height:26px; width:auto; display:block;" /></a>
     <a href="https://github.com/stuchain?tab=followers"><img src="https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a" alt="GitHub followers" style="height:26px; width:auto; display:block;" /></a>
   </div>
+  -->
 
   <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:8px; margin-top:12px; line-height:0;">
     <a href="https://stuchain.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7E22CE?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio site" style="height:26px; width:auto; display:block;" /></a>
@@ -171,6 +173,7 @@ A web arena for maze generation, algorithm visualization, and solver comparison.
 </table>
 <!-- FEATURED-OPTION2:END -->
 
+<div style="display:none;">
 ## Now & next
 
 ```mermaid
@@ -186,7 +189,6 @@ flowchart LR
 
 ---
 
-<!--
 ## Latest posts
 
 <!-- BLOG-POST-LIST:START -->
@@ -198,8 +200,6 @@ flowchart LR
 <!-- BLOG-POST-LIST:END -->
 
 <sub>Feeds are configured in `.github/workflows/blog-post-workflow.yml`. Replace the placeholder RSS with your blog, Dev.to, Medium export, etc.</sub>
-
--->
 ---
 
 <details open>
@@ -223,6 +223,7 @@ This repo includes a workflow that commits **SVG** into `assets/github-metrics.s
 </details>
 
 ---
+</div>
 
 <div align="center">
 
