@@ -1,7 +1,5 @@
 <div align="center" style="width:100%; margin:0; padding:0;">
 
-  <p style="margin:2px 0 0; line-height:1.3;">Reach out</p>
-
   <!--
   <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:8px; margin-top:4px; line-height:0;">
     <a href="https://github.com/stuchain"><img src="https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat" alt="Profile views" style="height:26px; width:auto; display:block;" /></a>
