@@ -54,19 +54,19 @@
 <!-- FEATURED-OPTION2:START -->
 <div align="center">
   <a href="https://github.com/stuchain/CuePoint">
-    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&border_color=414868" alt="CuePoint repository card" />
+    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&hide_border=true" alt="CuePoint repository card" />
   </a>
   <a href="https://github.com/stuchain/AUEB">
-    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=AUEB&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&border_color=414868" alt="AUEB repository card" />
+    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=AUEB&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&hide_border=true" alt="AUEB repository card" />
   </a>
   <a href="https://github.com/stuchain/mini-secure-channel-solana">
-    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=mini-secure-channel-solana&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&border_color=414868" alt="mini-secure-channel-solana repository card" />
+    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=mini-secure-channel-solana&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&hide_border=true" alt="mini-secure-channel-solana repository card" />
   </a>
   <a href="https://github.com/stuchain/iot-oracle-gateway">
-    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=iot-oracle-gateway&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&border_color=414868" alt="iot-oracle-gateway repository card" />
+    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=iot-oracle-gateway&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&hide_border=true" alt="iot-oracle-gateway repository card" />
   </a>
   <a href="https://github.com/stuchain/ctf-maze-arena">
-    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=ctf-maze-arena&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&border_color=414868" alt="ctf-maze-arena repository card" />
+    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=ctf-maze-arena&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&hide_border=true" alt="ctf-maze-arena repository card" />
   </a>
 </div>
 <!-- FEATURED-OPTION2:END -->
