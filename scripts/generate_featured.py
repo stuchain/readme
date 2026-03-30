@@ -182,7 +182,7 @@ def render_repo_option2_cell(owner: str, r: dict, max_topics: int) -> str:
 
     tech_parts: list[str] = []
     if all_langs:
-        tech_parts = ['<p align="left">', '  <strong>Tech:</strong>']
+        tech_parts = ['<p align="left">']
         for lang in all_langs:
             tech_parts.append(f"  {language_badge(lang)}")
         tech_parts.append("</p>")

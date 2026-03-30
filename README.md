@@ -57,7 +57,6 @@
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong> <strong>★ 3</strong></p>
 <p align="left">
-  <strong>Tech:</strong>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
   <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" />
   <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" />
@@ -79,7 +78,6 @@ CuePoint helps DJs clean and enrich Rekordbox libraries with official Beatport m
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong> <strong>★ 0</strong></p>
 <p align="left">
-  <strong>Tech:</strong>
   <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white&labelColor=1a1b27" alt="Java" />
   <img src="https://img.shields.io/badge/TeX-64748b?style=flat-square&labelColor=1a1b27" alt="TeX" />
@@ -101,7 +99,6 @@ A collection of AUEB coursework projects by Stelios Vasileiou, covering blockcha
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/mini-secure-channel-solana">mini-secure-channel-solana</a></strong> <strong>★ 0</strong></p>
 <p align="left">
-  <strong>Tech:</strong>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
   <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
@@ -123,7 +120,6 @@ A six-phase secure channel project demonstrating X25519 key exchange, MITM attac
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/iot-oracle-gateway">iot-oracle-gateway</a></strong> <strong>★ 0</strong></p>
 <p align="left">
-  <strong>Tech:</strong>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white&labelColor=1a1b27" alt="PowerShell" />
   <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" />
@@ -140,7 +136,6 @@ End-to-end IoT oracle: Python simulator publishes over MQTT; oracle aggregates, 
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/ctf-maze-arena">ctf-maze-arena</a></strong> <strong>★ 0</strong></p>
 <p align="left">
-  <strong>Tech:</strong>
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
@@ -159,136 +154,6 @@ A web arena for maze generation, algorithm visualization, and solver comparison.
 </tr>
 </table>
 <!-- FEATURED-OPTION2:END -->
-
-<p><em>Option 1 (active, auto-updated)</em>: Meta + Tech + Tags split rows.</p>
-
-<h3>Option 2 - Minimal inline metadata</h3>
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong></p>
-<p><code>★ 3</code> • <strong>Tech:</strong> Python, Shell, HTML • <strong>Tags:</strong> aiff, beatport, dj</p>
-<p>CuePoint helps DJs clean and enrich Rekordbox libraries with official Beatport metadata, fast matching, and an auditable review workflow.</p>
-</td>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong></p>
-<p><code>★ 0</code> • <strong>Tech:</strong> HTML, Java, Python • <strong>Tags:</strong> aueb, blockchain, css</p>
-<p>A collection of AUEB coursework projects by Stelios Vasileiou, covering blockchain thesis, distributed systems, web development and Python.</p>
-</td>
-</tr>
-</table>
-
-<h3>Option 3 - Stars on header right</h3>
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong> <img src="https://img.shields.io/badge/%E2%98%85-3-3fb950?style=flat-square&labelColor=1a1b27" alt="stars 3" /></p>
-<p><strong>Tech</strong><br /><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" /> <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" /> <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" /></p>
-<p><strong>Tags</strong><br /><img src="https://img.shields.io/badge/aiff-8b5cf6?style=flat-square&labelColor=1a1b27" alt="aiff" /> <img src="https://img.shields.io/badge/beatport-8b5cf6?style=flat-square&labelColor=1a1b27" alt="beatport" /> <img src="https://img.shields.io/badge/dj-8b5cf6?style=flat-square&labelColor=1a1b27" alt="dj" /></p>
-</td>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong> <img src="https://img.shields.io/badge/%E2%98%85-0-3fb950?style=flat-square&labelColor=1a1b27" alt="stars 0" /></p>
-<p><strong>Tech</strong><br /><img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white&labelColor=1a1b27" alt="Java" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" /></p>
-<p><strong>Tags</strong><br /><img src="https://img.shields.io/badge/aueb-8b5cf6?style=flat-square&labelColor=1a1b27" alt="aueb" /> <img src="https://img.shields.io/badge/blockchain-8b5cf6?style=flat-square&labelColor=1a1b27" alt="blockchain" /> <img src="https://img.shields.io/badge/css-8b5cf6?style=flat-square&labelColor=1a1b27" alt="css" /></p>
-</td>
-</tr>
-</table>
-
-<h3>Option 4 - Meta as compact list</h3>
-<ul>
-  <li><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong> - Stars: 3 - Tech: Python, Shell, HTML - Tags: aiff, beatport, dj</li>
-  <li><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong> - Stars: 0 - Tech: HTML, Java, Python - Tags: aueb, blockchain, css</li>
-</ul>
-
-<h3>Option 5 - Chip priority (filled tech, light tags)</h3>
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong></p>
-<p><img src="https://img.shields.io/badge/%E2%98%85_Stars-3-3fb950?style=flat-square&labelColor=1a1b27" alt="Stars" /></p>
-<p><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell" /></p>
-<p><img src="https://img.shields.io/badge/aiff-8b5cf6?style=flat-square&labelColor=1a1b27" alt="aiff" /> <img src="https://img.shields.io/badge/beatport-8b5cf6?style=flat-square&labelColor=1a1b27" alt="beatport" /></p>
-</td>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong></p>
-<p><img src="https://img.shields.io/badge/%E2%98%85_Stars-0-3fb950?style=flat-square&labelColor=1a1b27" alt="Stars" /></p>
-<p><img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" /></p>
-<p><img src="https://img.shields.io/badge/aueb-8b5cf6?style=flat-square&labelColor=1a1b27" alt="aueb" /> <img src="https://img.shields.io/badge/blockchain-8b5cf6?style=flat-square&labelColor=1a1b27" alt="blockchain" /></p>
-</td>
-</tr>
-</table>
-
-<h3>Option 6 - Text-first summary with footer chips</h3>
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong></p>
-<p>CuePoint helps DJs clean and enrich Rekordbox libraries with official Beatport metadata, fast matching, and an auditable review workflow.</p>
-<p><img src="https://img.shields.io/badge/stars-3-3fb950?style=flat-square&labelColor=1a1b27" alt="stars" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" /> <img src="https://img.shields.io/badge/aiff-8b5cf6?style=flat-square&labelColor=1a1b27" alt="aiff" /></p>
-</td>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong></p>
-<p>A collection of AUEB coursework projects by Stelios Vasileiou, covering blockchain thesis, distributed systems, web development and Python.</p>
-<p><img src="https://img.shields.io/badge/stars-0-3fb950?style=flat-square&labelColor=1a1b27" alt="stars" /> <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" /> <img src="https://img.shields.io/badge/aueb-8b5cf6?style=flat-square&labelColor=1a1b27" alt="aueb" /></p>
-</td>
-</tr>
-</table>
-
-<h3>Option 7 - Two column metadata table per repo</h3>
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong></p>
-<table>
-<tr><td><strong>Stars</strong></td><td>3</td></tr>
-<tr><td><strong>Tech</strong></td><td>Python, Shell, HTML</td></tr>
-<tr><td><strong>Tags</strong></td><td>aiff, beatport, dj</td></tr>
-</table>
-</td>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong></p>
-<table>
-<tr><td><strong>Stars</strong></td><td>0</td></tr>
-<tr><td><strong>Tech</strong></td><td>HTML, Java, Python</td></tr>
-<tr><td><strong>Tags</strong></td><td>aueb, blockchain, css</td></tr>
-</table>
-</td>
-</tr>
-</table>
-
-<h3>Option 8 - Monochrome meta + accent tags</h3>
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong></p>
-<p><img src="https://img.shields.io/badge/stars-3-64748b?style=flat-square&labelColor=1a1b27" alt="stars" /> <img src="https://img.shields.io/badge/tech-Python%2C%20Shell-64748b?style=flat-square&labelColor=1a1b27" alt="tech" /></p>
-<p><img src="https://img.shields.io/badge/aiff-8b5cf6?style=flat-square&labelColor=1a1b27" alt="aiff" /> <img src="https://img.shields.io/badge/beatport-8b5cf6?style=flat-square&labelColor=1a1b27" alt="beatport" /> <img src="https://img.shields.io/badge/dj-8b5cf6?style=flat-square&labelColor=1a1b27" alt="dj" /></p>
-</td>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong></p>
-<p><img src="https://img.shields.io/badge/stars-0-64748b?style=flat-square&labelColor=1a1b27" alt="stars" /> <img src="https://img.shields.io/badge/tech-HTML%2C%20Java-64748b?style=flat-square&labelColor=1a1b27" alt="tech" /></p>
-<p><img src="https://img.shields.io/badge/aueb-8b5cf6?style=flat-square&labelColor=1a1b27" alt="aueb" /> <img src="https://img.shields.io/badge/blockchain-8b5cf6?style=flat-square&labelColor=1a1b27" alt="blockchain" /> <img src="https://img.shields.io/badge/css-8b5cf6?style=flat-square&labelColor=1a1b27" alt="css" /></p>
-</td>
-</tr>
-</table>
-
-<h3>Option 9 - Compact card blocks</h3>
-<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong><br />★ 3<br />Tech: Python, Shell, HTML<br />Tags: aiff, beatport, dj</p>
-<p><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong><br />★ 0<br />Tech: HTML, Java, Python<br />Tags: aueb, blockchain, css</p>
-
-<h3>Option 10 - Single-line title bar metadata</h3>
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong> | ★ 3 | Python, Shell, HTML | #aiff #beatport #dj</p>
-<p>CuePoint helps DJs clean and enrich Rekordbox libraries with official Beatport metadata, fast matching, and an auditable review workflow.</p>
-</td>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong> | ★ 0 | HTML, Java, Python | #aueb #blockchain #css</p>
-<p>A collection of AUEB coursework projects by Stelios Vasileiou, covering blockchain thesis, distributed systems, web development and Python.</p>
-</td>
-</tr>
-</table>
 
 ---
 
