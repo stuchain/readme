@@ -175,25 +175,17 @@ def repo_badges_p(owner: str, r: dict, max_topics: int) -> str:
 def render_repo_option2_cell(owner: str, r: dict, max_topics: int) -> str:
     name = r["name"]
     url = r["html_url"]
+    stars = r.get("stargazers_count") or 0
     desc = sanitize_description(r.get("description"))
     topics = r.get("topics") or []
     all_langs = r.get("_all_languages") or []
 
-    star_shield = (
-        f"https://img.shields.io/github/stars/{owner}/{name}"
-        f"?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950"
-    )
-
-    meta_parts = [
-        '<p align="left">',
-        '  <strong>Meta:</strong>',
-        f'  <a href="{url}"><img src="{star_shield}" alt="GitHub stars" /></a>',
-    ]
+    tech_parts: list[str] = []
     if all_langs:
-        meta_parts.append("  <strong>Tech:</strong>")
+        tech_parts = ['<p align="left">', '  <strong>Tech:</strong>']
         for lang in all_langs:
-            meta_parts.append(f"  {language_badge(lang)}")
-    meta_parts.append("</p>")
+            tech_parts.append(f"  {language_badge(lang)}")
+        tech_parts.append("</p>")
 
     tags_parts: list[str] = []
     if topics[:max_topics]:
@@ -204,11 +196,12 @@ def render_repo_option2_cell(owner: str, r: dict, max_topics: int) -> str:
 
     return "\n".join(
         [
-            f'<p><strong><a href="{url}">{name}</a></strong></p>',
-            *meta_parts,
-            *(tags_parts if tags_parts else []),
+            f'<p><strong><a href="{url}">{name}</a></strong> <strong>★ {stars}</strong></p>',
+            *(tech_parts if tech_parts else []),
             "",
             desc,
+            "",
+            *(tags_parts if tags_parts else []),
         ]
     )
 
