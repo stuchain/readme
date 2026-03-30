@@ -170,35 +170,32 @@ A web arena for maze generation, algorithm visualization, and solver comparison.
   <a href="https://learn.microsoft.com/powershell/"><img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white&labelColor=1a1b27" alt="PowerShell" /></a>
   <a href="https://developer.mozilla.org/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" /></a>
   <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" /></a>
+  <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" /></a>
+  <img src="https://img.shields.io/badge/NSIS-64748b?style=flat-square&labelColor=1a1b27" alt="NSIS" />
+  <img src="https://img.shields.io/badge/Batchfile-64748b?style=flat-square&labelColor=1a1b27" alt="Batchfile" />
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" /></a>
+  <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" /></a>
+  <img src="https://img.shields.io/badge/Makefile-64748b?style=flat-square&labelColor=1a1b27" alt="Makefile" />
 </p>
 <p align="center">
   <strong>Web &amp; UI</strong><br />
-  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB&labelColor=1a1b27" alt="React" /></a>
+  <img src="https://img.shields.io/badge/HTML%2FCSS-7aa2f7?style=flat-square&labelColor=1a1b27" alt="HTML/CSS" />
   <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=1a1b27" alt="Next.js" /></a>
   <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white&labelColor=1a1b27" alt="Streamlit" /></a>
-  <img src="https://img.shields.io/badge/HTML%2FCSS-7aa2f7?style=flat-square&labelColor=1a1b27" alt="HTML/CSS" />
 </p>
 <p align="center">
   <strong>Backend &amp; data</strong><br />
-  <img src="https://img.shields.io/badge/Rust%20(axum%2C%20tokio)-7aa2f7?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust axum tokio" />
-  <img src="https://img.shields.io/badge/Python%20services-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python services" />
-  <a href="https://www.sqlite.org/"><img src="https://img.shields.io/badge/SQLite%20(sqlx)-003B57?style=flat-square&logo=sqlite&logoColor=white&labelColor=1a1b27" alt="SQLite sqlx" /></a>
   <img src="https://img.shields.io/badge/MQTT%20pipelines-7aa2f7?style=flat-square&labelColor=1a1b27" alt="MQTT" />
+  <img src="https://img.shields.io/badge/Python%20services-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python services" />
+  <img src="https://img.shields.io/badge/Rust%20(axum%2C%20tokio)-7aa2f7?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust axum tokio" />
 </p>
 <p align="center">
   <strong>Chain &amp; security</strong><br />
+  <img src="https://img.shields.io/badge/Crypto%20%26%20protocols-7aa2f7?style=flat-square&labelColor=1a1b27" alt="Cryptography" />
   <img src="https://img.shields.io/badge/Hardhat-F7DF1E?style=flat-square&labelColor=1a1b27" alt="Hardhat" />
-  <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" /></a>
   <img src="https://img.shields.io/badge/Local%20chains-7aa2f7?style=flat-square&labelColor=1a1b27" alt="Local chains" />
   <a href="https://solana.com/"><img src="https://img.shields.io/badge/Solana%20demos-9945FF?style=flat-square&logo=solana&logoColor=white&labelColor=1a1b27" alt="Solana" /></a>
-  <img src="https://img.shields.io/badge/Crypto%20%26%20protocols-7aa2f7?style=flat-square&labelColor=1a1b27" alt="Cryptography" />
-</p>
-<p align="center">
-  <strong>DevOps</strong><br />
-  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=1a1b27" alt="Docker" /></a>
-  <a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white&labelColor=1a1b27" alt="GitHub Actions" /></a>
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white&labelColor=1a1b27" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="bash" />
+  <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" /></a>
 </p>
 <!-- TECH-STACK:END -->
 

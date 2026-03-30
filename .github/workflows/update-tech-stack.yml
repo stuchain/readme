@@ -33,7 +33,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
           EXCLUDE_REPOS: readme,portfolio
-          MAX_TECH_LANGS: "8"
+          MAX_TECH_LANGS: "all"
         run: python scripts/generate_tech_stack.py
 
       - name: Commit README
