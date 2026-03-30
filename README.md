@@ -294,6 +294,11 @@ flowchart LR
 ## Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [AI and bots have officially taken over the internet](https://www.cnbc.com/2026/03/26/ai-bots-humans-internet.html)
+- [15 years, one server, 8GB RAM and 500k users – how Webminal refuses to die](https://community.webminal.org/t/15-years-one-server-8gb-ram-and-500k-users-how-webminal-refuses-to-die/8803)
+- [The curious case of retro demo scene graphics](https://www.datagubbe.se/aipixels/)
+- [HD Audio Driver for Windows 98SE / Me](https://github.com/andrew-hoffman/wdmhda)
+- [VHDL&#39;s Crown Jewel](https://www.sigasi.com/opinion/jan/vhdls-crown-jewel/)
 <!-- BLOG-POST-LIST:END -->
 
 <sub>Feeds are configured in `.github/workflows/blog-post-workflow.yml`. Replace the placeholder RSS with your blog, Dev.to, Medium export, etc.</sub>
