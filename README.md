@@ -51,7 +51,7 @@
 ---
 ## Repositories
 
-<!--
+<div hidden>
 <p align="center">
   <sub>Auto-filled from your <strong>public</strong> repos (top by ⭐; forks &amp; archived skipped). This profile repo and <code>portfolio</code> are excluded. <strong>Pin</strong> repos to mirror them here.</sub>
 </p>
@@ -59,7 +59,7 @@
 <p align="center">
   <sub>To tweak the list, edit <code>EXCLUDE_REPOS</code> in <code>.github/workflows/update-featured.yml</code> or run <code>python scripts/generate_featured.py</code> locally.</sub>
 </p>
--->
+</div>
 
 <!-- FEATURED-OPTION2:START -->
 <table width="100%">
@@ -128,7 +128,6 @@ A web arena for maze generation, algorithm visualization, and solver comparison.
 </tr>
 </table>
 <!-- FEATURED-OPTION2:END -->
----
 ## Tech stack
 
 
@@ -172,7 +171,7 @@ A web arena for maze generation, algorithm visualization, and solver comparison.
 
 ---
 
-<!--
+<div hidden>
 ## Now & next
 
 ```mermaid
@@ -222,7 +221,7 @@ This repo includes a workflow that commits **SVG** into `assets/github-metrics.s
 </details>
 
 ---
--->
+</div>
 
 <div align="center">
 
