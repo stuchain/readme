@@ -126,6 +126,141 @@ def render_repo(owner: str, r: dict, max_topics: int) -> str:
     return "\n".join(parts)
 
 
+def repo_badges_p(owner: str, r: dict, max_topics: int) -> str:
+    """
+    Shared badges block for the featured layouts (stars + language + topic badges).
+    """
+    url = r["html_url"]
+    name = r["name"]
+    lang = r.get("language")
+    topics = r.get("topics") or []
+
+    star_shield = (
+        f"https://img.shields.io/github/stars/{owner}/{name}"
+        f"?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950"
+    )
+
+    parts = ['<p align="left">', f'  <a href="{url}"><img src="{star_shield}" alt="GitHub stars" /></a>']
+    if lang:
+        parts.append(f"  {language_badge(lang)}")
+    for t in topics[:max_topics]:
+        parts.append(f"  {topic_badge(t)}")
+    parts.append("</p>")
+    return "\n".join(parts)
+
+
+def render_repo_option2_cell(owner: str, r: dict, max_topics: int) -> str:
+    name = r["name"]
+    url = r["html_url"]
+    desc = sanitize_description(r.get("description"))
+
+    return "\n".join(
+        [
+            f'<p><strong><a href="{url}">{name}</a></strong></p>',
+            repo_badges_p(owner, r, max_topics),
+            "",
+            desc,
+        ]
+    )
+
+
+def render_option2(owner: str, picked: list[dict], max_topics: int) -> str:
+    if not picked:
+        return "\n*No public repositories matched the filters.*\n"
+
+    out = ['<table width="100%">']
+    last = len(picked) - 1
+    for i, r in enumerate(picked):
+        if i % 2 == 0:
+            out.append("<tr>")
+        out.append(f'<td width="50%" valign="top">')
+        out.append(render_repo_option2_cell(owner, r, max_topics))
+        out.append("</td>")
+        if i % 2 == 1 or i == last:
+            out.append("</tr>")
+    out.append("</table>")
+    return "\n".join(out)
+
+
+def render_option3(owner: str, picked: list[dict], max_topics: int) -> str:
+    if not picked:
+        return "\n*No public repositories matched the filters.*\n"
+
+    out = ["<ul>"]
+    for r in picked:
+        name = r["name"]
+        url = r["html_url"]
+        lang = r.get("language")
+        topics = r.get("topics") or []
+        desc = sanitize_description(r.get("description"))
+
+        star_shield = (
+            f"https://img.shields.io/github/stars/{owner}/{name}"
+            f"?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950"
+        )
+
+        pieces: list[str] = []
+        pieces.append(f"<strong><a href=\"{url}\">{name}</a></strong>")
+        pieces.append("<br />")
+        pieces.append(f'<a href="{url}"><img src="{star_shield}" alt="GitHub stars" /></a>')
+        if lang:
+            pieces.append(language_badge(lang))
+        for t in topics[:max_topics]:
+            pieces.append(topic_badge(t))
+        pieces.append("<br />")
+        pieces.append(desc)
+
+        out.append(f"<li>{''.join(pieces)}</li>")
+    out.append("</ul>")
+    return "\n".join(out)
+
+
+def render_option4(owner: str, picked: list[dict], max_topics: int) -> str:
+    if not picked:
+        return "\n*No public repositories matched the filters.*\n"
+
+    out = [
+        '<table width="100%">',
+        "<tr>",
+        '<td valign="top" width="26%"><strong>Repo</strong></td>',
+        '<td valign="top" width="34%"><strong>Tech</strong></td>',
+        '<td valign="top"><strong>Summary</strong></td>',
+        "</tr>",
+    ]
+
+    for r in picked:
+        name = r["name"]
+        url = r["html_url"]
+        lang = r.get("language")
+        topics = r.get("topics") or []
+        desc = sanitize_description(r.get("description"))
+
+        star_shield = (
+            f"https://img.shields.io/github/stars/{owner}/{name}"
+            f"?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950"
+        )
+
+        tech_parts: list[str] = []
+        tech_parts.append(f'<a href="{url}"><img src="{star_shield}" alt="GitHub stars" /></a>')
+        if lang:
+            tech_parts.append(language_badge(lang))
+        for t in topics[:max_topics]:
+            tech_parts.append(topic_badge(t))
+
+        out.extend(
+            [
+                "<tr>",
+                f'<td valign="top"><strong><a href="{url}">{name}</a></strong></td>',
+                f'<td valign="top">{"".join(tech_parts)}</td>',
+                f"<td valign=\"top\">{desc}</td>",
+                "</tr>",
+            ]
+        )
+
+    out.append("</table>")
+    return "\n".join(out)
+
+
 def main() -> int:
     user = os.environ.get("GITHUB_USER", "stuchain")
     exclude = {
@@ -159,21 +294,60 @@ def main() -> int:
     picked = filtered[:max_repos]
 
     if not picked:
-        body = "\n*No public repositories matched the filters.*\n"
+        body_option1 = "\n*No public repositories matched the filters.*\n"
+        body_option2 = body_option1
+        body_option3 = body_option1
+        body_option4 = body_option1
     else:
-        body = "\n".join(render_repo(user, r, max_topics) for r in picked).rstrip() + "\n"
+        body_option1 = "\n".join(render_repo(user, r, max_topics) for r in picked).rstrip() + "\n"
+        body_option2 = render_option2(user, picked, max_topics).rstrip() + "\n"
+        body_option3 = render_option3(user, picked, max_topics).rstrip() + "\n"
+        body_option4 = render_option4(user, picked, max_topics).rstrip() + "\n"
 
-    block = f"<!-- FEATURED-REPOS:START -->\n{body}<!-- FEATURED-REPOS:END -->"
+    def wrap_marker(option: str, body: str) -> str:
+        return f"<!-- FEATURED-OPTION{option}:START -->\n{body}<!-- FEATURED-OPTION{option}:END -->"
+
+    block_option1 = wrap_marker("1", body_option1)
+    block_option2 = wrap_marker("2", body_option2)
+    block_option3 = wrap_marker("3", body_option3)
+    block_option4 = wrap_marker("4", body_option4)
 
     with open(README, encoding="utf-8") as f:
         content = f.read()
 
-    pattern = r"<!-- FEATURED-REPOS:START -->.*?<!-- FEATURED-REPOS:END -->"
-    if not re.search(pattern, content, flags=re.DOTALL):
-        print("README.md: markers <!-- FEATURED-REPOS:START/END --> not found", file=sys.stderr)
+    option_pattern = r"<!-- FEATURED-OPTION{n}:START -->.*?<!-- FEATURED-OPTION{n}:END -->"
+    old_pattern = r"<!-- FEATURED-REPOS:START -->.*?<!-- FEATURED-REPOS:END -->"
+
+    def has_marker(n: str) -> bool:
+        return re.search(option_pattern.format(n=n), content, flags=re.DOTALL) is not None
+
+    # New scheme (preferred): 4 separate marker blocks (OPTION1..OPTION4).
+    if all(has_marker(str(n)) for n in (1, 2, 3, 4)):
+        new_content = content
+        new_content = re.sub(
+            option_pattern.format(n="1"), block_option1, new_content, count=1, flags=re.DOTALL
+        )
+        new_content = re.sub(
+            option_pattern.format(n="2"), block_option2, new_content, count=1, flags=re.DOTALL
+        )
+        new_content = re.sub(
+            option_pattern.format(n="3"), block_option3, new_content, count=1, flags=re.DOTALL
+        )
+        new_content = re.sub(
+            option_pattern.format(n="4"), block_option4, new_content, count=1, flags=re.DOTALL
+        )
+    # Backward compatible scheme: single FEATURED-REPOS marker (writes Option 1 only).
+    elif re.search(old_pattern, content, flags=re.DOTALL) is not None:
+        new_content = re.sub(
+            old_pattern, f"<!-- FEATURED-REPOS:START -->\n{body_option1}<!-- FEATURED-REPOS:END -->", content, count=1, flags=re.DOTALL
+        )
+    else:
+        print(
+            "README.md: markers <!-- FEATURED-OPTION1..4:START/END --> or FEATURED-REPOS:START/END not found",
+            file=sys.stderr,
+        )
         return 1
 
-    new_content = re.sub(pattern, block, content, count=1, flags=re.DOTALL)
     with open(README, "w", encoding="utf-8") as f:
         f.write(new_content)
 

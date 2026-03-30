@@ -1,33 +1,99 @@
+<details open>
+<summary><strong>Header Option 1</strong></summary>
+
 <div align="center" style="width:100%; margin:0; padding:0;">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Engineer" alt="Animated typing subtitle: greeting, name, and taglines" />
+  <sub>Building full-stack systems and security-minded tooling.</sub>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Engineer" alt="Animated typing subtitle: greeting, name, and taglines" />
+  <p align="center">
+    [![Profile views](https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat)](https://github.com/stuchain)
+    [![GitHub followers](https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a)](https://github.com/stuchain?tab=followers)
+  </p>
 
-<sub>Building full-stack systems and security-minded tooling.</sub>
-
-[![Profile views](https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat)](https://github.com/stuchain)
-[![GitHub followers](https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a)](https://github.com/stuchain?tab=followers)
-
-<p align="center">
-  <a href="https://stuchain.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7aa2f7?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio site" /></a>
-  <a href="https://www.linkedin.com/in/stelios-vasileiou/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1b27" alt="LinkedIn profile" /></a>
-  <a href="mailto:stelios.vasiliou@icloud.com"><img src="https://img.shields.io/badge/Email-3693F3?style=flat-square&logo=icloud&logoColor=white&labelColor=1a1b27" alt="Email" /></a>
-</p>
-
+  <p align="center">
+    <a href="https://stuchain.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7aa2f7?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio site" /></a>
+    <a href="https://www.linkedin.com/in/stelios-vasileiou/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1b27" alt="LinkedIn profile" /></a>
+    <a href="mailto:stelios.vasiliou@icloud.com"><img src="https://img.shields.io/badge/Email-3693F3?style=flat-square&logo=icloud&logoColor=white&labelColor=1a1b27" alt="Email" /></a>
+  </p>
 </div>
+</details>
+
+<details>
+<summary><strong>Header Option 2</strong></summary>
+
+<div align="center" style="width:100%; margin:0; padding:0;">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Engineer" alt="Animated typing subtitle: greeting, name, and taglines" />
+  <sub>Building full-stack systems and security-minded tooling.</sub>
+
+  <p align="center">
+    [![Profile views](https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat)](https://github.com/stuchain)
+    [![GitHub followers](https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a)](https://github.com/stuchain?tab=followers)
+  </p>
+
+  <p align="center">
+    <a href="https://stuchain.github.io/portfolio"><strong>Portfolio</strong></a>
+    &middot;
+    <a href="https://www.linkedin.com/in/stelios-vasileiou/"><strong>LinkedIn</strong></a>
+    &middot;
+    <a href="mailto:stelios.vasiliou@icloud.com"><strong>Email</strong></a>
+  </p>
+</div>
+</details>
+
+<details>
+<summary><strong>Header Option 3</strong></summary>
+
+<div align="center" style="width:100%; margin:0; padding:0;">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Engineer" alt="Animated typing subtitle: greeting, name, and taglines" />
+  <sub>Building full-stack systems and security-minded tooling.</sub>
+
+  <p align="center">
+    [![Profile views](https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat)](https://github.com/stuchain)
+    [![GitHub followers](https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a)](https://github.com/stuchain?tab=followers)
+  </p>
+
+  <p align="center">
+    <a href="https://stuchain.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7aa2f7?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio site" /></a><br />
+    <a href="https://www.linkedin.com/in/stelios-vasileiou/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1b27" alt="LinkedIn profile" /></a><br />
+    <a href="mailto:stelios.vasiliou@icloud.com"><img src="https://img.shields.io/badge/Email-3693F3?style=flat-square&logo=icloud&logoColor=white&labelColor=1a1b27" alt="Email" /></a>
+  </p>
+</div>
+</details>
+
+<details>
+<summary><strong>Header Option 4</strong></summary>
+
+<div align="center" style="width:100%; margin:0; padding:0;">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Engineer" alt="Animated typing subtitle: greeting, name, and taglines" />
+  <sub>Building full-stack systems and security-minded tooling.</sub>
+
+  <p align="center">
+    [![Profile views](https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat)](https://github.com/stuchain)
+    [![GitHub followers](https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a)](https://github.com/stuchain?tab=followers)
+  </p>
+
+  <p align="center">
+    <a href="https://stuchain.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7aa2f7?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio site" /></a>
+    &middot;
+    <a href="https://www.linkedin.com/in/stelios-vasileiou/"><strong>LinkedIn</strong></a>
+    &middot;
+    <a href="mailto:stelios.vasiliou@icloud.com"><strong>Email</strong></a>
+  </p>
+</div>
+</details>
 
 ---
 
 ## Snapshot
-
-<div align="center" style="width:100%; display:flex; flex-wrap:wrap; justify-content:center; align-items:stretch; gap:12px; border:none; margin:0; padding:0;">
-  <div style="flex:1 1 30%; min-width:220px; max-width:100%; display:flex; align-items:center; justify-content:center; margin:0; padding:0; border:none;">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" width="100%" style="display:block; width:100%; max-width:100%; height:auto; border:none;" />
+<div align="center" style="width:100%; display:flex; flex-wrap:nowrap; justify-content:center; align-items:stretch; gap:12px; border:none; margin:0; padding:0; overflow-x:auto;">
+  <div style="flex:1 1 0; min-width:220px; height:140px; max-width:100%; display:flex; align-items:center; justify-content:center; margin:0; padding:0; border:none;">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" width="100%" style="display:block; width:100%; max-width:100%; height:100%; object-fit:contain; border:none;" />
   </div>
-  <div style="flex:1 1 30%; min-width:220px; max-width:100%; display:flex; align-items:center; justify-content:center; margin:0; padding:0; border:none;">
-    <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="100%" style="display:block; width:100%; max-width:100%; height:auto; border:none;" />
+  <div style="flex:1 1 0; min-width:220px; height:140px; max-width:100%; display:flex; align-items:center; justify-content:center; margin:0; padding:0; border:none;">
+    <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="100%" style="display:block; width:100%; max-width:100%; height:100%; object-fit:contain; border:none;" />
   </div>
-  <div style="flex:1 1 30%; min-width:220px; max-width:100%; display:flex; align-items:center; justify-content:center; margin:0; padding:0; border:none;">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" width="100%" style="display:block; width:100%; max-width:100%; height:auto; border:none;" />
+  <div style="flex:1 1 0; min-width:220px; height:140px; max-width:100%; display:flex; align-items:center; justify-content:center; margin:0; padding:0; border:none;">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" width="100%" style="display:block; width:100%; max-width:100%; height:100%; object-fit:contain; border:none;" />
   </div>
 </div>
 
@@ -50,7 +116,7 @@
 
 ## Tech stack
 
-<p align="center"><sub>Four layouts below — same content, different presentation. <strong>Pick one</strong> and delete or collapse the other three when you’re ready.</sub></p>
+<p align="center"><sub>Tokyo-night badges for the tools I build with.</sub></p>
 
 <details open>
 <summary><strong>Option 1 — Tokyo-night badge rows</strong> <em>(Shields.io, matches profile blues)</em></summary>
@@ -95,104 +161,6 @@
 
 </details>
 
-<details open>
-<summary><strong>Option 2 — Skill icon grid + table</strong> <em>(logo wall + structured list)</em></summary>
-
-<p align="center"><sub>Icons: single <strong>dark</strong> theme for a consistent grid.</sub></p>
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=py,rust,ts,js,react,nextjs,solidity,solana,nodejs,streamlit,docker,git,linux,sqlite&perline=7&theme=dark" alt="Python, Rust, TypeScript, JavaScript, React, Next.js, Solidity, Solana, Node.js, Streamlit, Docker, Git, Linux, SQLite" />
-
-</div>
-
-<br />
-
-<table>
-<tr>
-<td align="right" valign="top" width="26%"><strong>Languages</strong></td>
-<td valign="top">Python · Rust · TypeScript · JavaScript · Solidity</td>
-</tr>
-<tr>
-<td align="right" valign="top"><strong>Web &amp; UI</strong></td>
-<td valign="top">React · Next.js (App Router) · Streamlit · HTML/CSS</td>
-</tr>
-<tr>
-<td align="right" valign="top"><strong>Backend &amp; data</strong></td>
-<td valign="top">Rust (axum, tokio) · Python services · SQLite (sqlx) · MQTT pipelines</td>
-</tr>
-<tr>
-<td align="right" valign="top"><strong>Chain &amp; security</strong></td>
-<td valign="top">Hardhat · Solidity · local chains · Solana demos · cryptography &amp; protocols</td>
-</tr>
-<tr>
-<td align="right" valign="top"><strong>DevOps</strong></td>
-<td valign="top">Docker · GitHub Actions · PowerShell · bash</td>
-</tr>
-</table>
-
-</details>
-
-<details open>
-<summary><strong>Option 3 — Two-column category cards</strong> <em>(compact HTML, no external images)</em></summary>
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-<p><strong>Languages</strong><br />Python · Rust · TypeScript · JavaScript · Solidity</p>
-<p><strong>Web &amp; UI</strong><br />React · Next.js (App Router) · Streamlit · HTML/CSS</p>
-<p><strong>Backend &amp; data</strong><br />Rust (axum, tokio) · Python services · SQLite (sqlx) · MQTT pipelines</p>
-
-</td>
-<td width="50%" valign="top">
-
-<p><strong>Chain &amp; security</strong><br />Hardhat · Solidity · local chains · Solana demos · cryptography &amp; protocols</p>
-<p><strong>DevOps</strong><br />Docker · GitHub Actions · PowerShell · bash</p>
-
-</td>
-</tr>
-</table>
-
-</details>
-
-<details open>
-<summary><strong>Option 4 — Mermaid mindmap</strong> <em>(diagram; good for at-a-glance structure)</em></summary>
-
-```mermaid
-mindmap
-  root((Tech stack))
-    Languages
-      Python
-      Rust
-      TypeScript
-      JavaScript
-      Solidity
-    Web and UI
-      React
-      Next.js App Router
-      Streamlit
-      HTML and CSS
-    Backend and data
-      Rust axum tokio
-      Python services
-      SQLite sqlx
-      MQTT pipelines
-    Chain and security
-      Hardhat
-      Solidity
-      Local chains
-      Solana demos
-      Cryptography and protocols
-    DevOps
-      Docker
-      GitHub Actions
-      PowerShell
-      bash
-```
-
-</details>
-
 ---
 
 ## Featured
@@ -205,7 +173,10 @@ mindmap
   <sub>To tweak the list, edit <code>EXCLUDE_REPOS</code> in <code>.github/workflows/update-featured.yml</code> or run <code>python scripts/generate_featured.py</code> locally.</sub>
 </p>
 
-<!-- FEATURED-REPOS:START -->
+<details open>
+<summary><strong>Option 1 — Vertical repo blocks</strong></summary>
+
+<!-- FEATURED-OPTION1:START -->
 ### [CuePoint](https://github.com/stuchain/CuePoint)
 
 <p align="left">
@@ -272,7 +243,133 @@ End-to-end IoT oracle: Python simulator publishes over MQTT; oracle aggregates, 
 A web arena for maze generation, algorithm visualization, and solver comparison. Built with Rust + TypeScript.
 
 ---
-<!-- FEATURED-REPOS:END -->
+<!-- FEATURED-OPTION1:END -->
+</details>
+
+<details>
+<summary><strong>Option 2 — Two-column grid</strong></summary>
+
+<!-- FEATURED-OPTION2:START -->
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong></p>
+<p align="left">
+  <a href="https://github.com/stuchain/CuePoint"><img src="https://img.shields.io/github/stars/stuchain/CuePoint?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
+  <img src="https://img.shields.io/badge/aiff-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aiff" />
+  <img src="https://img.shields.io/badge/beatport-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: beatport" />
+  <img src="https://img.shields.io/badge/dj-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: dj" />
+</p>
+
+CuePoint helps DJs clean and enrich Rekordbox libraries with official Beatport metadata, fast matching, and an auditable review workflow. Latest version: 0.0.2
+</td>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong></p>
+<p align="left">
+  <a href="https://github.com/stuchain/AUEB"><img src="https://img.shields.io/github/stars/stuchain/AUEB?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a>
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" />
+  <img src="https://img.shields.io/badge/aueb-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aueb" />
+  <img src="https://img.shields.io/badge/blockchain-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: blockchain" />
+  <img src="https://img.shields.io/badge/css-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: css" />
+</p>
+
+A collection of AUEB coursework projects by Stelios Vasileiou, covering blockchain thesis, distributed systems, web development and Python.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/mini-secure-channel-solana">mini-secure-channel-solana</a></strong></p>
+<p align="left">
+  <a href="https://github.com/stuchain/mini-secure-channel-solana"><img src="https://img.shields.io/github/stars/stuchain/mini-secure-channel-solana?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
+  <img src="https://img.shields.io/badge/aead-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aead" />
+  <img src="https://img.shields.io/badge/anchor-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: anchor" />
+  <img src="https://img.shields.io/badge/blockchain--authentication-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: blockchain-authentication" />
+</p>
+
+A six-phase secure channel project demonstrating X25519 key exchange, MITM attacks, Ed25519 authentication, ChaCha20-Poly1305 AEAD, and Solana-based decentralized key verification.
+</td>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/iot-oracle-gateway">iot-oracle-gateway</a></strong></p>
+<p align="left">
+  <a href="https://github.com/stuchain/iot-oracle-gateway"><img src="https://img.shields.io/github/stars/stuchain/iot-oracle-gateway?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
+</p>
+
+End-to-end IoT oracle: Python simulator publishes over MQTT; oracle aggregates, detects anomalies (EWMA/z-score), anchors hashes on-chain (Solidity/Hardhat); Streamlit dashboard for metrics.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/ctf-maze-arena">ctf-maze-arena</a></strong></p>
+<p align="left">
+  <a href="https://github.com/stuchain/ctf-maze-arena"><img src="https://img.shields.io/github/stars/stuchain/ctf-maze-arena?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a>
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" />
+  <img src="https://img.shields.io/badge/algorithms-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: algorithms" />
+  <img src="https://img.shields.io/badge/capture--the--flag-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: capture-the-flag" />
+  <img src="https://img.shields.io/badge/ctf-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: ctf" />
+</p>
+
+A web arena for maze generation, algorithm visualization, and solver comparison. Built with Rust + TypeScript.
+</td>
+</tr>
+</table>
+<!-- FEATURED-OPTION2:END -->
+</details>
+
+<details>
+<summary><strong>Option 3 — Minimal bullet list</strong></summary>
+
+<!-- FEATURED-OPTION3:START -->
+<ul>
+<li><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong><br /><a href="https://github.com/stuchain/CuePoint"><img src="https://img.shields.io/github/stars/stuchain/CuePoint?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" /><img src="https://img.shields.io/badge/aiff-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aiff" /><img src="https://img.shields.io/badge/beatport-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: beatport" /><img src="https://img.shields.io/badge/dj-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: dj" /><br />CuePoint helps DJs clean and enrich Rekordbox libraries with official Beatport metadata, fast matching, and an auditable review workflow. Latest version: 0.0.2</li>
+<li><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong><br /><a href="https://github.com/stuchain/AUEB"><img src="https://img.shields.io/github/stars/stuchain/AUEB?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a><img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" /><img src="https://img.shields.io/badge/aueb-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aueb" /><img src="https://img.shields.io/badge/blockchain-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: blockchain" /><img src="https://img.shields.io/badge/css-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: css" /><br />A collection of AUEB coursework projects by Stelios Vasileiou, covering blockchain thesis, distributed systems, web development and Python.</li>
+<li><strong><a href="https://github.com/stuchain/mini-secure-channel-solana">mini-secure-channel-solana</a></strong><br /><a href="https://github.com/stuchain/mini-secure-channel-solana"><img src="https://img.shields.io/github/stars/stuchain/mini-secure-channel-solana?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" /><img src="https://img.shields.io/badge/aead-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aead" /><img src="https://img.shields.io/badge/anchor-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: anchor" /><img src="https://img.shields.io/badge/blockchain--authentication-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: blockchain-authentication" /><br />A six-phase secure channel project demonstrating X25519 key exchange, MITM attacks, Ed25519 authentication, ChaCha20-Poly1305 AEAD, and Solana-based decentralized key verification.</li>
+<li><strong><a href="https://github.com/stuchain/iot-oracle-gateway">iot-oracle-gateway</a></strong><br /><a href="https://github.com/stuchain/iot-oracle-gateway"><img src="https://img.shields.io/github/stars/stuchain/iot-oracle-gateway?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" /><br />End-to-end IoT oracle: Python simulator publishes over MQTT; oracle aggregates, detects anomalies (EWMA/z-score), anchors hashes on-chain (Solidity/Hardhat); Streamlit dashboard for metrics.</li>
+<li><strong><a href="https://github.com/stuchain/ctf-maze-arena">ctf-maze-arena</a></strong><br /><a href="https://github.com/stuchain/ctf-maze-arena"><img src="https://img.shields.io/github/stars/stuchain/ctf-maze-arena?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" /><img src="https://img.shields.io/badge/algorithms-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: algorithms" /><img src="https://img.shields.io/badge/capture--the--flag-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: capture-the-flag" /><img src="https://img.shields.io/badge/ctf-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: ctf" /><br />A web arena for maze generation, algorithm visualization, and solver comparison. Built with Rust + TypeScript.</li>
+</ul>
+<!-- FEATURED-OPTION3:END -->
+</details>
+
+<details>
+<summary><strong>Option 4 — Table layout</strong></summary>
+
+<!-- FEATURED-OPTION4:START -->
+<table width="100%">
+<tr>
+<td valign="top" width="26%"><strong>Repo</strong></td>
+<td valign="top" width="34%"><strong>Tech</strong></td>
+<td valign="top"><strong>Summary</strong></td>
+</tr>
+<tr>
+<td valign="top"><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong></td>
+<td valign="top"><a href="https://github.com/stuchain/CuePoint"><img src="https://img.shields.io/github/stars/stuchain/CuePoint?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" /><img src="https://img.shields.io/badge/aiff-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aiff" /><img src="https://img.shields.io/badge/beatport-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: beatport" /><img src="https://img.shields.io/badge/dj-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: dj" /></td>
+<td valign="top">CuePoint helps DJs clean and enrich Rekordbox libraries with official Beatport metadata, fast matching, and an auditable review workflow. Latest version: 0.0.2</td>
+</tr>
+<tr>
+<td valign="top"><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong></td>
+<td valign="top"><a href="https://github.com/stuchain/AUEB"><img src="https://img.shields.io/github/stars/stuchain/AUEB?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a><img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" /><img src="https://img.shields.io/badge/aueb-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aueb" /><img src="https://img.shields.io/badge/blockchain-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: blockchain" /><img src="https://img.shields.io/badge/css-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: css" /></td>
+<td valign="top">A collection of AUEB coursework projects by Stelios Vasileiou, covering blockchain thesis, distributed systems, web development and Python.</td>
+</tr>
+<tr>
+<td valign="top"><strong><a href="https://github.com/stuchain/mini-secure-channel-solana">mini-secure-channel-solana</a></strong></td>
+<td valign="top"><a href="https://github.com/stuchain/mini-secure-channel-solana"><img src="https://img.shields.io/github/stars/stuchain/mini-secure-channel-solana?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" /><img src="https://img.shields.io/badge/aead-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aead" /><img src="https://img.shields.io/badge/anchor-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: anchor" /><img src="https://img.shields.io/badge/blockchain--authentication-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: blockchain-authentication" /></td>
+<td valign="top">A six-phase secure channel project demonstrating X25519 key exchange, MITM attacks, Ed25519 authentication, ChaCha20-Poly1305 AEAD, and Solana-based decentralized key verification.</td>
+</tr>
+<tr>
+<td valign="top"><strong><a href="https://github.com/stuchain/iot-oracle-gateway">iot-oracle-gateway</a></strong></td>
+<td valign="top"><a href="https://github.com/stuchain/iot-oracle-gateway"><img src="https://img.shields.io/github/stars/stuchain/iot-oracle-gateway?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" /></td>
+<td valign="top">End-to-end IoT oracle: Python simulator publishes over MQTT; oracle aggregates, detects anomalies (EWMA/z-score), anchors hashes on-chain (Solidity/Hardhat); Streamlit dashboard for metrics.</td>
+</tr>
+<tr>
+<td valign="top"><strong><a href="https://github.com/stuchain/ctf-maze-arena">ctf-maze-arena</a></strong></td>
+<td valign="top"><a href="https://github.com/stuchain/ctf-maze-arena"><img src="https://img.shields.io/github/stars/stuchain/ctf-maze-arena?style=flat-square&logo=github&label=stars&labelColor=1a1b27&color=3fb950" alt="GitHub stars" /></a><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" /><img src="https://img.shields.io/badge/algorithms-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: algorithms" /><img src="https://img.shields.io/badge/capture--the--flag-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: capture-the-flag" /><img src="https://img.shields.io/badge/ctf-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: ctf" /></td>
+<td valign="top">A web arena for maze generation, algorithm visualization, and solver comparison. Built with Rust + TypeScript.</td>
+</tr>
+</table>
+<!-- FEATURED-OPTION4:END -->
+</details>
 
 ---
 
