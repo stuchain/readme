@@ -18,15 +18,15 @@
 
 
 ## Snapshot
-<table width="100%" style="border:none; border-spacing:0; margin:0; padding:0; table-layout:fixed;">
+<table width="100%" cellspacing="0" cellpadding="0" style="border:none; border-collapse:collapse; border-spacing:0; margin:0; padding:0; table-layout:fixed;">
   <tr>
-    <td valign="middle" style="width:33.33%; padding:0;">
+    <td valign="middle" style="width:33.33%; padding:0; border:none;">
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" width="100%" style="display:block; width:100%; height:140px; object-fit:contain; border:none;" />
     </td>
-    <td valign="middle" style="width:33.33%; padding:0;">
+    <td valign="middle" style="width:33.33%; padding:0; border:none;">
       <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="100%" style="display:block; width:100%; height:140px; object-fit:contain; border:none;" />
     </td>
-    <td valign="middle" style="width:33.33%; padding:0;">
+    <td valign="middle" style="width:33.33%; padding:0; border:none;">
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" width="100%" style="display:block; width:100%; height:140px; object-fit:contain; border:none;" />
     </td>
   </tr>
