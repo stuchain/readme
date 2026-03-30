@@ -52,38 +52,38 @@
 ## Repositories
 
 <!-- FEATURED-OPTION2:START -->
-<table width="100%">
+<table width="100%" style="border:none; border-collapse:collapse;">
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border:none; padding:4px;">
       <a href="https://github.com/stuchain/CuePoint">
         <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=tokyonight&hide_border=true" alt="CuePoint repository card" />
       </a>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border:none; padding:4px;">
       <a href="https://github.com/stuchain/AUEB">
         <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=AUEB&show_owner=false&theme=tokyonight&hide_border=true" alt="AUEB repository card" />
       </a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border:none; padding:4px;">
       <a href="https://github.com/stuchain/mini-secure-channel-solana">
         <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=mini-secure-channel-solana&show_owner=false&theme=tokyonight&hide_border=true" alt="mini-secure-channel-solana repository card" />
       </a>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border:none; padding:4px;">
       <a href="https://github.com/stuchain/iot-oracle-gateway">
         <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=iot-oracle-gateway&show_owner=false&theme=tokyonight&hide_border=true" alt="iot-oracle-gateway repository card" />
       </a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border:none; padding:4px;">
       <a href="https://github.com/stuchain/ctf-maze-arena">
         <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=ctf-maze-arena&show_owner=false&theme=tokyonight&hide_border=true" alt="ctf-maze-arena repository card" />
       </a>
     </td>
-    <td width="50%" valign="top"></td>
+    <td width="50%" valign="top" style="border:none; padding:4px;"></td>
   </tr>
 </table>
 <!-- FEATURED-OPTION2:END -->
@@ -91,30 +91,46 @@
 <details>
   <summary><strong>Repository card theme previews (choose one)</strong></summary>
   <br />
-  <table width="100%">
+  <table width="100%" style="border:none; border-collapse:collapse;">
     <tr>
-      <td valign="top"><strong>tokyonight</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=tokyonight&hide_border=true" alt="tokyonight preview" /></td>
-      <td valign="top"><strong>radical</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=radical&hide_border=true" alt="radical preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>tokyonight</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=tokyonight&hide_border=true" alt="tokyonight preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>radical</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=radical&hide_border=true" alt="radical preview" /></td>
     </tr>
     <tr>
-      <td valign="top"><strong>dracula</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=dracula&hide_border=true" alt="dracula preview" /></td>
-      <td valign="top"><strong>gruvbox</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=gruvbox&hide_border=true" alt="gruvbox preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>dracula</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=dracula&hide_border=true" alt="dracula preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>gruvbox</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=gruvbox&hide_border=true" alt="gruvbox preview" /></td>
     </tr>
     <tr>
-      <td valign="top"><strong>onedark</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=onedark&hide_border=true" alt="onedark preview" /></td>
-      <td valign="top"><strong>nightowl</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=nightowl&hide_border=true" alt="nightowl preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>onedark</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=onedark&hide_border=true" alt="onedark preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>nightowl</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=nightowl&hide_border=true" alt="nightowl preview" /></td>
     </tr>
     <tr>
-      <td valign="top"><strong>algolia</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=algolia&hide_border=true" alt="algolia preview" /></td>
-      <td valign="top"><strong>merko</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=merko&hide_border=true" alt="merko preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>algolia</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=algolia&hide_border=true" alt="algolia preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>merko</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=merko&hide_border=true" alt="merko preview" /></td>
     </tr>
     <tr>
-      <td valign="top"><strong>nord</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=nord&hide_border=true" alt="nord preview" /></td>
-      <td valign="top"><strong>dark</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=dark&hide_border=true" alt="dark preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>nord</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=nord&hide_border=true" alt="nord preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>dark</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=dark&hide_border=true" alt="dark preview" /></td>
     </tr>
     <tr>
-      <td valign="top"><strong>default</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=default&hide_border=true" alt="default preview" /></td>
-      <td valign="top"></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>default</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=default&hide_border=true" alt="default preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"></td>
+    </tr>
+    <tr>
+      <td valign="top" style="border:none; padding:4px;"><strong>github_dark</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=github_dark&hide_border=true" alt="github_dark preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>github_dark_dimmed</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=github_dark_dimmed&hide_border=true" alt="github_dark_dimmed preview" /></td>
+    </tr>
+    <tr>
+      <td valign="top" style="border:none; padding:4px;"><strong>vision-friendly-dark</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=vision-friendly-dark&hide_border=true" alt="vision-friendly-dark preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>midnight-purple</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=midnight-purple&hide_border=true" alt="midnight-purple preview" /></td>
+    </tr>
+    <tr>
+      <td valign="top" style="border:none; padding:4px;"><strong>chartreuse-dark</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=chartreuse-dark&hide_border=true" alt="chartreuse-dark preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>outrun</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=outrun&hide_border=true" alt="outrun preview" /></td>
+    </tr>
+    <tr>
+      <td valign="top" style="border:none; padding:4px;"><strong>noctis_minimus</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=noctis_minimus&hide_border=true" alt="noctis_minimus preview" /></td>
+      <td valign="top" style="border:none; padding:4px;"><strong>codeSTACKr</strong><br /><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=codeSTACKr&hide_border=true" alt="codeSTACKr preview" /></td>
     </tr>
   </table>
 </details>
