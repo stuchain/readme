@@ -1,6 +1,6 @@
 <div align="center" style="width:100%; margin:0; padding:0;">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Engineer" alt="Animated typing subtitle: greeting, name, and taglines" />
-  <p style="margin:2px 0 0; line-height:1.3;">Building full-stack systems and security-minded tooling.</p>
+  <p style="margin:2px 0 0; line-height:1.3;">Software Engineer building projects driven by curiosity, whether to learn or create useful tools for my everyday life!</p>
 
   <!--
   <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:8px; margin-top:4px; line-height:0;">

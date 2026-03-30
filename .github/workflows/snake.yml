@@ -32,6 +32,41 @@ jobs:
           # Blue / periwinkle / violet — aligned with github-readme-activity-graph (tokyo-night).
           outputs: "dist/github-snake.svg?color_dots=#f8fafc,#e0e7ff,#c7d2fe,#a5b4fc,#818cf8&color_snake=#7a95f5\ndist/github-snake-dark.svg?color_dots=#1a1b27,#3d4f73,#565f89,#7aa2f7,#bb9af7&color_snake=#7aa2f7"
 
+      - name: Normalize snake SVG canvas
+        run: |
+          python - <<'PY'
+          import pathlib
+          import re
+
+          paths = [
+              pathlib.Path("dist/github-snake.svg"),
+              pathlib.Path("dist/github-snake-dark.svg"),
+          ]
+
+          viewbox_re = re.compile(r'viewBox="([-0-9.]+)\s+([-0-9.]+)\s+([0-9.]+)\s+([0-9.]+)"')
+          width_re = re.compile(r'width="([0-9.]+)"')
+          height_re = re.compile(r'height="([0-9.]+)"')
+
+          for path in paths:
+              text = path.read_text(encoding="utf-8")
+              m = viewbox_re.search(text)
+              if not m:
+                  raise SystemExit(f"viewBox not found in {path}")
+
+              x, y, w, h = map(float, m.groups())
+              # snk currently emits a negative-origin canvas, which adds side padding.
+              # Convert to a zero-origin viewBox while preserving the right/bottom bounds.
+              new_w = w + x
+              new_h = h + y
+              if new_w <= 0 or new_h <= 0:
+                  raise SystemExit(f"Invalid normalized dimensions for {path}: {new_w}x{new_h}")
+
+              text = viewbox_re.sub(f'viewBox="0 0 {new_w:g} {new_h:g}"', text, count=1)
+              text = width_re.sub(f'width="{new_w:g}"', text, count=1)
+              text = height_re.sub(f'height="{new_h:g}"', text, count=1)
+              path.write_text(text, encoding="utf-8")
+          PY
+
       - name: Commit snake assets
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
