@@ -1,22 +1,18 @@
-<details open>
-<summary><strong>Header Option 1</strong></summary>
-
 <div align="center" style="width:100%; margin:0; padding:0;">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Engineer" alt="Animated typing subtitle: greeting, name, and taglines" />
-  <sub style="display:block; margin-top:2px;">Building full-stack systems and security-minded tooling.</sub>
+  <p style="margin:2px 0 0; line-height:1.3;">Building full-stack systems and security-minded tooling.</p>
 
-  <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:8px; margin-top:4px;">
+  <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:8px; margin-top:4px; line-height:0;">
     <a href="https://github.com/stuchain"><img src="https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat" alt="Profile views" style="height:26px; width:auto; display:block;" /></a>
     <a href="https://github.com/stuchain?tab=followers"><img src="https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a" alt="GitHub followers" style="height:26px; width:auto; display:block;" /></a>
   </div>
 
-  <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:8px; margin-top:8px;">
+  <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:8px; margin-top:8px; line-height:0;">
     <a href="https://stuchain.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7aa2f7?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio site" style="height:26px; width:auto; display:block;" /></a>
     <a href="https://www.linkedin.com/in/stelios-vasileiou/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1b27" alt="LinkedIn profile" style="height:26px; width:auto; display:block;" /></a>
     <a href="mailto:stelios.vasiliou@icloud.com"><img src="https://img.shields.io/badge/Email-3693F3?style=flat-square&logo=icloud&logoColor=white&labelColor=1a1b27" alt="Email" style="height:26px; width:auto; display:block;" /></a>
   </div>
 </div>
-</details>
 
 ---
 
