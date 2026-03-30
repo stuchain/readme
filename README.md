@@ -56,31 +56,31 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/stuchain/CuePoint">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=default&hide_border=true" alt="CuePoint repository card" />
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&theme=tokyonight&hide_border=true" alt="CuePoint repository card" />
       </a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/stuchain/AUEB">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=stuchain&repo=AUEB&show_owner=false&theme=default&hide_border=true" alt="AUEB repository card" />
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=AUEB&show_owner=false&theme=tokyonight&hide_border=true" alt="AUEB repository card" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/stuchain/mini-secure-channel-solana">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=stuchain&repo=mini-secure-channel-solana&show_owner=false&theme=default&hide_border=true" alt="mini-secure-channel-solana repository card" />
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=mini-secure-channel-solana&show_owner=false&theme=tokyonight&hide_border=true" alt="mini-secure-channel-solana repository card" />
       </a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/stuchain/iot-oracle-gateway">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=stuchain&repo=iot-oracle-gateway&show_owner=false&theme=default&hide_border=true" alt="iot-oracle-gateway repository card" />
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=iot-oracle-gateway&show_owner=false&theme=tokyonight&hide_border=true" alt="iot-oracle-gateway repository card" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/stuchain/ctf-maze-arena">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=stuchain&repo=ctf-maze-arena&show_owner=false&theme=default&hide_border=true" alt="ctf-maze-arena repository card" />
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=ctf-maze-arena&show_owner=false&theme=tokyonight&hide_border=true" alt="ctf-maze-arena repository card" />
       </a>
     </td>
     <td width="50%" valign="top"></td>
