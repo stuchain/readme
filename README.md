@@ -202,6 +202,7 @@ A web arena for maze generation, algorithm visualization, and solver comparison.
 
 <div align="center">
 
-**Thanks for stopping by — PRs and interesting problems welcome.**
+**Thanks for stopping by - PRs, ideas, and feedback are welcome.**
+**Feel free to reach out!**
 
 </div>
