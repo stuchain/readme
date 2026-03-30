@@ -19,9 +19,9 @@
 
 ## Snapshot
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to"  height="150" />
-  <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true&card_height=50&card_width=495" alt="Contribution streak: current streak, longest streak, and totals"  height="150" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub"  height="150" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to"  height="120" />
+  <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true&card_height=50&card_width=495" alt="Contribution streak: current streak, longest streak, and totals"  height="120" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub"  height="120" />
 </p>
 
 
