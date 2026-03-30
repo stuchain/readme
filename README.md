@@ -16,16 +16,20 @@
   </div>
 </div>
 
----
 
 ## Snapshot
-<div align="center" style="font-size:0;">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" width="32.8%" style="display:inline-block; width:32.8%; height:140px; object-fit:contain; border:none; vertical-align:middle;" />
-  <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="32.8%" style="display:inline-block; width:32.8%; height:140px; object-fit:contain; border:none; vertical-align:middle;" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" width="32.8%" style="display:inline-block; width:32.8%; height:140px; object-fit:contain; border:none; vertical-align:middle;" />
+<div align="center" style="display:flex; gap:8px; align-items:stretch;">
+  <div style="flex:1; height:140px;">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" style="display:block; width:100%; height:100%; object-fit:fill; border:none;" />
+  </div>
+  <div style="flex:1; height:140px;">
+    <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" style="display:block; width:100%; height:100%; object-fit:fill; border:none;" />
+  </div>
+  <div style="flex:1; height:140px;">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" style="display:block; width:100%; height:100%; object-fit:fill; border:none;" />
+  </div>
 </div>
 
----
 
 ## Repositories
 
@@ -49,8 +53,6 @@
 </div>
 <!-- FEATURED-OPTION2:END -->
 
----
-
 ## Contributions
 
 <div align="center">
@@ -64,8 +66,6 @@
 </picture>
 
 </div>
-
----
 
 ## Tech stack
 
@@ -108,8 +108,6 @@
   <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" /></a>
 </p>
 <!-- TECH-STACK:END -->
-
----
 
 <div align="center">
 
