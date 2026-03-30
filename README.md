@@ -3,18 +3,18 @@
 
 <div align="center" style="width:100%; margin:0; padding:0;">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Engineer" alt="Animated typing subtitle: greeting, name, and taglines" />
-  <sub>Building full-stack systems and security-minded tooling.</sub>
+  <div><sub>Building full-stack systems and security-minded tooling.</sub></div>
 
-  <p align="center">
-    [![Profile views](https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat)](https://github.com/stuchain)
-    [![GitHub followers](https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a)](https://github.com/stuchain?tab=followers)
-  </p>
+  <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:10px; margin-top:6px;">
+    <a href="https://github.com/stuchain"><img src="https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat" alt="Profile views" style="height:26px; width:auto; display:block;" /></a>
+    <a href="https://github.com/stuchain?tab=followers"><img src="https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a" alt="GitHub followers" style="height:26px; width:auto; display:block;" /></a>
+  </div>
 
-  <p align="center">
-    <a href="https://stuchain.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7aa2f7?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio site" /></a>
-    <a href="https://www.linkedin.com/in/stelios-vasileiou/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1b27" alt="LinkedIn profile" /></a>
-    <a href="mailto:stelios.vasiliou@icloud.com"><img src="https://img.shields.io/badge/Email-3693F3?style=flat-square&logo=icloud&logoColor=white&labelColor=1a1b27" alt="Email" /></a>
-  </p>
+  <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:10px; margin-top:10px;">
+    <a href="https://stuchain.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7aa2f7?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio site" style="height:26px; width:auto; display:block;" /></a>
+    <a href="https://www.linkedin.com/in/stelios-vasileiou/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1b27" alt="LinkedIn profile" style="height:26px; width:auto; display:block;" /></a>
+    <a href="mailto:stelios.vasiliou@icloud.com"><img src="https://img.shields.io/badge/Email-3693F3?style=flat-square&logo=icloud&logoColor=white&labelColor=1a1b27" alt="Email" style="height:26px; width:auto; display:block;" /></a>
+  </div>
 </div>
 </details>
 
@@ -23,20 +23,13 @@
 
 <div align="center" style="width:100%; margin:0; padding:0;">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Engineer" alt="Animated typing subtitle: greeting, name, and taglines" />
-  <sub>Building full-stack systems and security-minded tooling.</sub>
+  <div><sub>Building full-stack systems and security-minded tooling.</sub></div>
 
-  <p align="center">
-    [![Profile views](https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat)](https://github.com/stuchain)
-    [![GitHub followers](https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a)](https://github.com/stuchain?tab=followers)
-  </p>
-
-  <p align="center">
-    <a href="https://stuchain.github.io/portfolio"><strong>Portfolio</strong></a>
-    &middot;
-    <a href="https://www.linkedin.com/in/stelios-vasileiou/"><strong>LinkedIn</strong></a>
-    &middot;
-    <a href="mailto:stelios.vasiliou@icloud.com"><strong>Email</strong></a>
-  </p>
+  <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:10px; margin-top:14px;">
+    <a href="https://stuchain.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7aa2f7?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio site" style="height:26px; width:auto; display:block;" /></a>
+    <a href="https://www.linkedin.com/in/stelios-vasileiou/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1b27" alt="LinkedIn profile" style="height:26px; width:auto; display:block;" /></a>
+    <a href="mailto:stelios.vasiliou@icloud.com"><img src="https://img.shields.io/badge/Email-3693F3?style=flat-square&logo=icloud&logoColor=white&labelColor=1a1b27" alt="Email" style="height:26px; width:auto; display:block;" /></a>
+  </div>
 </div>
 </details>
 
@@ -45,18 +38,18 @@
 
 <div align="center" style="width:100%; margin:0; padding:0;">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Engineer" alt="Animated typing subtitle: greeting, name, and taglines" />
-  <sub>Building full-stack systems and security-minded tooling.</sub>
+  <div><sub>Building full-stack systems and security-minded tooling.</sub></div>
 
-  <p align="center">
-    [![Profile views](https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat)](https://github.com/stuchain)
-    [![GitHub followers](https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a)](https://github.com/stuchain?tab=followers)
-  </p>
+  <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:10px; margin-top:10px;">
+    <a href="https://github.com/stuchain"><img src="https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat" alt="Profile views" style="height:26px; width:auto; display:block;" /></a>
+    <a href="https://github.com/stuchain?tab=followers"><img src="https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a" alt="GitHub followers" style="height:26px; width:auto; display:block;" /></a>
+  </div>
 
-  <p align="center">
-    <a href="https://stuchain.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7aa2f7?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio site" /></a><br />
-    <a href="https://www.linkedin.com/in/stelios-vasileiou/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1b27" alt="LinkedIn profile" /></a><br />
-    <a href="mailto:stelios.vasiliou@icloud.com"><img src="https://img.shields.io/badge/Email-3693F3?style=flat-square&logo=icloud&logoColor=white&labelColor=1a1b27" alt="Email" /></a>
-  </p>
+  <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; gap:8px; margin-top:10px;">
+    <a href="https://stuchain.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7aa2f7?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio site" style="height:26px; width:auto; display:block;" /></a>
+    <a href="https://www.linkedin.com/in/stelios-vasileiou/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1b27" alt="LinkedIn profile" style="height:26px; width:auto; display:block;" /></a>
+    <a href="mailto:stelios.vasiliou@icloud.com"><img src="https://img.shields.io/badge/Email-3693F3?style=flat-square&logo=icloud&logoColor=white&labelColor=1a1b27" alt="Email" style="height:26px; width:auto; display:block;" /></a>
+  </div>
 </div>
 </details>
 
@@ -65,37 +58,37 @@
 
 <div align="center" style="width:100%; margin:0; padding:0;">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+Stelios;Software+Engineer" alt="Animated typing subtitle: greeting, name, and taglines" />
-  <sub>Building full-stack systems and security-minded tooling.</sub>
+  <div><sub>Building full-stack systems and security-minded tooling.</sub></div>
 
-  <p align="center">
-    [![Profile views](https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat)](https://github.com/stuchain)
-    [![GitHub followers](https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a)](https://github.com/stuchain?tab=followers)
-  </p>
+  <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:10px; margin-top:8px;">
+    <a href="https://github.com/stuchain"><img src="https://komarev.com/ghpvc/?username=stuchain&label=profile%20views&color=0f172a&style=flat" alt="Profile views" style="height:26px; width:auto; display:block;" /></a>
+    <a href="https://github.com/stuchain?tab=followers"><img src="https://img.shields.io/github/followers/stuchain?label=followers&style=flat&logo=github&color=0f172a" alt="GitHub followers" style="height:26px; width:auto; display:block;" /></a>
+  </div>
 
-  <p align="center">
-    <a href="https://stuchain.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7aa2f7?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio site" /></a>
-    &middot;
-    <a href="https://www.linkedin.com/in/stelios-vasileiou/"><strong>LinkedIn</strong></a>
-    &middot;
-    <a href="mailto:stelios.vasiliou@icloud.com"><strong>Email</strong></a>
-  </p>
+  <div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:10px; margin-top:10px;">
+    <a href="https://stuchain.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7aa2f7?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1a1b27" alt="Portfolio site" style="height:26px; width:auto; display:block;" /></a>
+    <a href="https://www.linkedin.com/in/stelios-vasileiou/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1b27" alt="LinkedIn profile" style="height:26px; width:auto; display:block;" /></a>
+    <a href="mailto:stelios.vasiliou@icloud.com"><img src="https://img.shields.io/badge/Email-3693F3?style=flat-square&logo=icloud&logoColor=white&labelColor=1a1b27" alt="Email" style="height:26px; width:auto; display:block;" /></a>
+  </div>
 </div>
 </details>
 
 ---
 
 ## Snapshot
-<div align="center" style="width:100%; display:flex; flex-wrap:nowrap; justify-content:center; align-items:stretch; gap:12px; border:none; margin:0; padding:0; overflow-x:auto;">
-  <div style="flex:1 1 0; min-width:220px; height:140px; max-width:100%; display:flex; align-items:center; justify-content:center; margin:0; padding:0; border:none;">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" width="100%" style="display:block; width:100%; max-width:100%; height:100%; object-fit:contain; border:none;" />
-  </div>
-  <div style="flex:1 1 0; min-width:220px; height:140px; max-width:100%; display:flex; align-items:center; justify-content:center; margin:0; padding:0; border:none;">
-    <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="100%" style="display:block; width:100%; max-width:100%; height:100%; object-fit:contain; border:none;" />
-  </div>
-  <div style="flex:1 1 0; min-width:220px; height:140px; max-width:100%; display:flex; align-items:center; justify-content:center; margin:0; padding:0; border:none;">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" width="100%" style="display:block; width:100%; max-width:100%; height:100%; object-fit:contain; border:none;" />
-  </div>
-</div>
+<table width="100%" style="border:none;border-spacing:0;margin:0;padding:0;table-layout:fixed;">
+  <tr>
+    <td valign="middle" style="width:33.33%; padding:0;">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" width="100%" style="display:block; width:100%; height:140px; object-fit:contain; border:none;" />
+    </td>
+    <td valign="middle" style="width:33.33%; padding:0;">
+      <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="100%" style="display:block; width:100%; height:140px; object-fit:contain; border:none;" />
+    </td>
+    <td valign="middle" style="width:33.33%; padding:0;">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" width="100%" style="display:block; width:100%; height:140px; object-fit:contain; border:none;" />
+    </td>
+  </tr>
+</table>
 
 
 ### Contributions
@@ -173,7 +166,7 @@
   <sub>To tweak the list, edit <code>EXCLUDE_REPOS</code> in <code>.github/workflows/update-featured.yml</code> or run <code>python scripts/generate_featured.py</code> locally.</sub>
 </p>
 
-<details open>
+<details>
 <summary><strong>Option 1 — Vertical repo blocks</strong></summary>
 
 <!-- FEATURED-OPTION1:START -->
@@ -246,7 +239,7 @@ A web arena for maze generation, algorithm visualization, and solver comparison.
 <!-- FEATURED-OPTION1:END -->
 </details>
 
-<details>
+<details open>
 <summary><strong>Option 2 — Two-column grid</strong></summary>
 
 <!-- FEATURED-OPTION2:START -->

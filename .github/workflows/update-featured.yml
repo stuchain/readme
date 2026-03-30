@@ -33,7 +33,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
           EXCLUDE_REPOS: readme,portfolio
-          MAX_FEATURED: "6"
+          MAX_FEATURED: "all"
           MAX_TOPICS: "3"
         run: python scripts/generate_featured.py
 

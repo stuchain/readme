@@ -268,7 +268,13 @@ def main() -> int:
         for x in os.environ.get("EXCLUDE_REPOS", "readme,portfolio").split(",")
         if x.strip()
     }
-    max_repos = int(os.environ.get("MAX_FEATURED", "6"))
+    max_featured_raw = os.environ.get("MAX_FEATURED", "6").strip().lower()
+    # Support selecting all repos to keep README fully in sync.
+    # MAX_FEATURED="all" (or 0/-1/none) means "no limit".
+    if max_featured_raw in {"all", "inf", "infinity", "none", "0", "-1"}:
+        max_repos: int | None = None
+    else:
+        max_repos = int(max_featured_raw)
     max_topics = int(os.environ.get("MAX_TOPICS", "3"))
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
 
@@ -291,7 +297,7 @@ def main() -> int:
         filtered.append(r)
 
     filtered.sort(key=lambda x: (-(x.get("stargazers_count") or 0), x.get("pushed_at") or ""))
-    picked = filtered[:max_repos]
+    picked = filtered if max_repos is None else filtered[:max_repos]
 
     if not picked:
         body_option1 = "\n*No public repositories matched the filters.*\n"
@@ -321,25 +327,37 @@ def main() -> int:
     def has_marker(n: str) -> bool:
         return re.search(option_pattern.format(n=n), content, flags=re.DOTALL) is not None
 
+    option_blocks = {
+        "1": block_option1,
+        "2": block_option2,
+        "3": block_option3,
+        "4": block_option4,
+    }
+
+    option_present = {str(n): has_marker(str(n)) for n in (1, 2, 3, 4)}
+
     # New scheme (preferred): 4 separate marker blocks (OPTION1..OPTION4).
-    if all(has_marker(str(n)) for n in (1, 2, 3, 4)):
+    # We replace only the marker blocks that actually exist in the README, so you can
+    # keep a single option (e.g. only OPTION2) without breaking regeneration.
+    if any(option_present.values()):
         new_content = content
-        new_content = re.sub(
-            option_pattern.format(n="1"), block_option1, new_content, count=1, flags=re.DOTALL
-        )
-        new_content = re.sub(
-            option_pattern.format(n="2"), block_option2, new_content, count=1, flags=re.DOTALL
-        )
-        new_content = re.sub(
-            option_pattern.format(n="3"), block_option3, new_content, count=1, flags=re.DOTALL
-        )
-        new_content = re.sub(
-            option_pattern.format(n="4"), block_option4, new_content, count=1, flags=re.DOTALL
-        )
+        for n in ("1", "2", "3", "4"):
+            if option_present[n]:
+                new_content = re.sub(
+                    option_pattern.format(n=n),
+                    option_blocks[n],
+                    new_content,
+                    count=1,
+                    flags=re.DOTALL,
+                )
     # Backward compatible scheme: single FEATURED-REPOS marker (writes Option 1 only).
     elif re.search(old_pattern, content, flags=re.DOTALL) is not None:
         new_content = re.sub(
-            old_pattern, f"<!-- FEATURED-REPOS:START -->\n{body_option1}<!-- FEATURED-REPOS:END -->", content, count=1, flags=re.DOTALL
+            old_pattern,
+            f"<!-- FEATURED-REPOS:START -->\n{body_option1}<!-- FEATURED-REPOS:END -->",
+            content,
+            count=1,
+            flags=re.DOTALL,
         )
     else:
         print(
