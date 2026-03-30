@@ -19,36 +19,14 @@
 ---
 
 ## Snapshot
-<table width="100%" style="border:none;border-spacing:0;margin:0;padding:0;table-layout:fixed;">
-  <tr>
-    <td valign="middle" style="width:33.33%; padding:0;">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" width="100%" style="display:block; width:100%; height:140px; object-fit:contain; border:none;" />
-    </td>
-    <td valign="middle" style="width:33.33%; padding:0;">
-      <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="100%" style="display:block; width:100%; height:140px; object-fit:contain; border:none;" />
-    </td>
-    <td valign="middle" style="width:33.33%; padding:0;">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" width="100%" style="display:block; width:100%; height:140px; object-fit:contain; border:none;" />
-    </td>
-  </tr>
-</table>
-
-
-### Contributions
-
-<div align="center">
-
-<img alt="Activity graph: last year of contributions" src="https://github-readme-activity-graph.vercel.app/graph?username=stuchain&theme=tokyo-night&hide_border=true&area=true" width="100%" style="display:block; width:100%; max-width:100%; height:auto;" />
-
-<picture style="display:block; width:100%; margin:0; padding:0;">
-  <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg" />
-  <img alt="Snake animation over the contribution grid" src="./dist/github-snake.svg" width="100%" style="display:block; width:104%; max-width:none; height:auto; margin-left:-2%;" />
-</picture>
-
+<div align="center" style="font-size:0;">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to" width="32.8%" style="display:inline-block; width:32.8%; height:140px; object-fit:contain; border:none; vertical-align:middle;" />
+  <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true" alt="Contribution streak: current streak, longest streak, and totals" width="32.8%" style="display:inline-block; width:32.8%; height:140px; object-fit:contain; border:none; vertical-align:middle;" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub" width="32.8%" style="display:inline-block; width:32.8%; height:140px; object-fit:contain; border:none; vertical-align:middle;" />
 </div>
 
 ---
+
 ## Repositories
 
 <!-- FEATURED-OPTION2:START -->
@@ -70,6 +48,22 @@
   </a>
 </div>
 <!-- FEATURED-OPTION2:END -->
+
+---
+
+## Contributions
+
+<div align="center">
+
+<img alt="Activity graph: last year of contributions" src="https://github-readme-activity-graph.vercel.app/graph?username=stuchain&theme=tokyo-night&hide_border=true&area=true" width="100%" style="display:block; width:100%; max-width:100%; height:auto;" />
+
+<picture style="display:block; width:100%; margin:0; padding:0;">
+  <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg" />
+  <img alt="Snake animation over the contribution grid" src="./dist/github-snake.svg" width="100%" style="display:block; width:104%; max-width:none; height:auto; margin-left:-2%;" />
+</picture>
+
+</div>
 
 ---
 
