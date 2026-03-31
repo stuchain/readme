@@ -77,6 +77,7 @@
   <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" /></a>
 </p>
 <!-- TECH-STACK:END -->
+
 ## Contributions
 
 <div align="center">
