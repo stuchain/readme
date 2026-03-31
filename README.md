@@ -89,10 +89,3 @@
 </picture>
 
 </div>
-
-<div align="center">
-
-**Thanks for stopping by - PRs, ideas, and feedback are welcome.**
-**Feel free to reach out!**
-
-</div>
