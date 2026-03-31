@@ -14,15 +14,6 @@
   </div>
 </div>
 
-
-## Snapshot
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=stuchain&theme=tokyonight" alt="GitHub summary: stars, commits, PRs, issues, repos contributed to"  height="130" />
-  <img src="https://streak-stats.demolab.com/?user=stuchain&theme=tokyonight&hide_border=true&card_height=50&card_width=495" alt="Contribution streak: current streak, longest streak, and totals"  height="130" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=stuchain&theme=tokyonight" alt="Repository languages breakdown on GitHub"  height="130" />
-</p>
-
-
 ## Repositories
 
 <!-- FEATURED-OPTION2:START -->
@@ -44,20 +35,6 @@
   </a>
 </div>
 <!-- FEATURED-OPTION2:END -->
-
-## Contributions
-
-<div align="center">
-
-<img alt="Activity graph: last year of contributions" src="https://github-readme-activity-graph.vercel.app/graph?username=stuchain&theme=tokyo-night&hide_border=true&area=true" width="100%" style="display:block; width:100%; max-width:100%; height:auto;" />
-
-<picture style="display:block; width:100%; margin:0; padding:0;">
-  <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg" />
-  <img alt="Snake animation over the contribution grid" src="./dist/github-snake.svg" width="100%" style="display:block; width:104%; max-width:none; height:auto; margin-left:-2%;" />
-</picture>
-
-</div>
 
 ## Tech stack
 
@@ -100,6 +77,17 @@
   <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" /></a>
 </p>
 <!-- TECH-STACK:END -->
+## Contributions
+
+<div align="center">
+
+<picture style="display:block; width:100%; margin:0; padding:0;">
+  <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg" />
+  <img alt="Snake animation over the contribution grid" src="./dist/github-snake.svg" width="100%" style="display:block; width:104%; max-width:none; height:auto; margin-left:-2%;" />
+</picture>
+
+</div>
 
 <div align="center">
 
