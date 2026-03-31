@@ -33,6 +33,9 @@
   <a href="https://github.com/stuchain/ctf-maze-arena">
     <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=ctf-maze-arena&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&hide_border=true&border_color=1a1b27" alt="ctf-maze-arena repository card" />
   </a>
+  <a href="https://github.com/stuchain/muzpa-auto-search">
+    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=muzpa-auto-search&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&hide_border=true&border_color=1a1b27" alt="muzpa-auto-search repository card" />
+  </a>
 </div>
 <!-- FEATURED-OPTION2:END -->
 
