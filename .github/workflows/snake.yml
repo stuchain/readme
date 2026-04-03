@@ -23,6 +23,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # After a force-push or concurrent commits, local main can diverge from origin and
+      # git-auto-commit-action will fail to push (non-fast-forward). Reset to remote tip first.
+      - name: Sync with remote branch
+        run: |
+          git fetch origin "${{ github.ref_name }}"
+          git reset --hard "origin/${{ github.ref_name }}"
 
       - name: Generate snake SVGs
         uses: Platane/snk@v3.4.1
