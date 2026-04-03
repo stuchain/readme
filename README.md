@@ -17,26 +17,153 @@
 ## Repositories
 
 <!-- FEATURED-OPTION2:START -->
-<div align="center">
-  <a href="https://github.com/stuchain/CuePoint">
-    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=CuePoint&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&hide_border=true&border_color=1a1b27" alt="CuePoint repository card" />
-  </a>
-  <a href="https://github.com/stuchain/AUEB">
-    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=AUEB&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&hide_border=true&border_color=1a1b27" alt="AUEB repository card" />
-  </a>
-  <a href="https://github.com/stuchain/mini-secure-channel-solana">
-    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=mini-secure-channel-solana&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&hide_border=true&border_color=1a1b27" alt="mini-secure-channel-solana repository card" />
-  </a>
-  <a href="https://github.com/stuchain/iot-oracle-gateway">
-    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=iot-oracle-gateway&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&hide_border=true&border_color=1a1b27" alt="iot-oracle-gateway repository card" />
-  </a>
-  <a href="https://github.com/stuchain/ctf-maze-arena">
-    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=ctf-maze-arena&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&hide_border=true&border_color=1a1b27" alt="ctf-maze-arena repository card" />
-  </a>
-  <a href="https://github.com/stuchain/muzpa-auto-search">
-    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=stuchain&repo=muzpa-auto-search&show_owner=false&bg_color=1a1b27&title_color=7aa2f7&text_color=c9d1d9&icon_color=bb9af7&hide_border=true&border_color=1a1b27" alt="muzpa-auto-search repository card" />
-  </a>
-</div>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong> <strong>★ 3</strong></p>
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white&labelColor=1a1b27" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/NSIS-64748b?style=flat-square&labelColor=1a1b27" alt="NSIS" />
+  <img src="https://img.shields.io/badge/Batchfile-64748b?style=flat-square&labelColor=1a1b27" alt="Batchfile" />
+  <img src="https://img.shields.io/badge/Makefile-64748b?style=flat-square&labelColor=1a1b27" alt="Makefile" />
+</p>
+
+CuePoint helps DJs clean and enrich Rekordbox libraries with official Beatport metadata, fast matching, and an auditable review workflow. Latest version: 0.0.2
+
+<p align="left">
+  <strong>Tags:</strong>
+  <img src="https://img.shields.io/badge/aiff-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aiff" />
+  <img src="https://img.shields.io/badge/beatport-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: beatport" />
+  <img src="https://img.shields.io/badge/dj-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: dj" />
+</p>
+</td>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/muzpa-auto-search">muzpa-auto-search</a></strong> <strong>★ 0</strong></p>
+<p align="left">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Batchfile-64748b?style=flat-square&labelColor=1a1b27" alt="Batchfile" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" />
+</p>
+
+Desktop app that opens Muzpa search links from playlist CSVs (Spotify exports, etc.) with a fast manual Run -> Download -> Next workflow.
+
+<p align="left">
+  <strong>Tags:</strong>
+  <img src="https://img.shields.io/badge/electron-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: electron" />
+  <img src="https://img.shields.io/badge/music--discovery-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: music-discovery" />
+  <img src="https://img.shields.io/badge/music--downloader--helper-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: music-downloader-helper" />
+</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/mini-secure-channel-solana">mini-secure-channel-solana</a></strong> <strong>★ 0</strong></p>
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
+  <img src="https://img.shields.io/badge/Batchfile-64748b?style=flat-square&labelColor=1a1b27" alt="Batchfile" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" />
+</p>
+
+A six-phase secure channel project demonstrating X25519 key exchange, MITM attacks, Ed25519 authentication, ChaCha20-Poly1305 AEAD, and Solana-based decentralized key verification.
+
+<p align="left">
+  <strong>Tags:</strong>
+  <img src="https://img.shields.io/badge/aead-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aead" />
+  <img src="https://img.shields.io/badge/anchor-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: anchor" />
+  <img src="https://img.shields.io/badge/blockchain--authentication-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: blockchain-authentication" />
+</p>
+</td>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/iot-oracle-gateway">iot-oracle-gateway</a></strong> <strong>★ 0</strong></p>
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white&labelColor=1a1b27" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" />
+  <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" />
+  <img src="https://img.shields.io/badge/Batchfile-64748b?style=flat-square&labelColor=1a1b27" alt="Batchfile" />
+</p>
+
+End-to-end IoT oracle: Python simulator publishes over MQTT; oracle aggregates, detects anomalies (EWMA/z-score), anchors hashes on-chain (Solidity/Hardhat); Streamlit dashboard for metrics.
+
+<p align="left">
+  <strong>Tags:</strong>
+  <img src="https://img.shields.io/badge/anomaly--detection-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: anomaly-detection" />
+  <img src="https://img.shields.io/badge/blockchain--oracle-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: blockchain-oracle" />
+  <img src="https://img.shields.io/badge/ethereum-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: ethereum" />
+</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/AUEB">AUEB</a></strong> <strong>★ 0</strong></p>
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white&labelColor=1a1b27" alt="Java" />
+  <img src="https://img.shields.io/badge/TeX-64748b?style=flat-square&labelColor=1a1b27" alt="TeX" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
+</p>
+
+A collection of AUEB coursework projects by Stelios Vasileiou, covering blockchain thesis, distributed systems, web development and Python.
+
+<p align="left">
+  <strong>Tags:</strong>
+  <img src="https://img.shields.io/badge/aueb-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: aueb" />
+  <img src="https://img.shields.io/badge/blockchain-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: blockchain" />
+  <img src="https://img.shields.io/badge/css-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: css" />
+</p>
+</td>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/ctf-maze-arena">ctf-maze-arena</a></strong> <strong>★ 0</strong></p>
+<p align="left">
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
+</p>
+
+A web arena for maze generation, algorithm visualization, and solver comparison. Built with Rust + TypeScript.
+
+<p align="left">
+  <strong>Tags:</strong>
+  <img src="https://img.shields.io/badge/algorithms-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: algorithms" />
+  <img src="https://img.shields.io/badge/capture--the--flag-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: capture-the-flag" />
+  <img src="https://img.shields.io/badge/ctf-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: ctf" />
+</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/stay-ops-planner">stay-ops-planner</a></strong> <strong>★ 0</strong></p>
+<p align="left">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Dockerfile-64748b?style=flat-square&labelColor=1a1b27" alt="Dockerfile" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
+</p>
+
+Internal tool for short-term rental ops: sync bookings from a channel manager, assign each stay to a physical unit, avoid double-booking, and coordinate cleaning and maintenance
+
+</td>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/stuchain">stuchain</a></strong> <strong>★ 0</strong></p>
+
+*No description yet.*
+
+</td>
+</tr>
+</table>
 <!-- FEATURED-OPTION2:END -->
 
 ## Tech stack
