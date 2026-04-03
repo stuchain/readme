@@ -45,19 +45,13 @@
 <p align="center">
   <strong>Languages</strong><br />
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" /></a>
-  <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" /></a>
   <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white&labelColor=1a1b27" alt="Java" /></a>
-  <img src="https://img.shields.io/badge/TeX-64748b?style=flat-square&labelColor=1a1b27" alt="TeX" />
-  <a href="https://www.gnu.org/software/bash/"><img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" /></a>
-  <a href="https://learn.microsoft.com/powershell/"><img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white&labelColor=1a1b27" alt="PowerShell" /></a>
+  <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" /></a>
   <a href="https://developer.mozilla.org/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" /></a>
   <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" /></a>
-  <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" /></a>
-  <img src="https://img.shields.io/badge/NSIS-64748b?style=flat-square&labelColor=1a1b27" alt="NSIS" />
-  <img src="https://img.shields.io/badge/Batchfile-64748b?style=flat-square&labelColor=1a1b27" alt="Batchfile" />
-  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" /></a>
   <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" /></a>
-  <img src="https://img.shields.io/badge/Makefile-64748b?style=flat-square&labelColor=1a1b27" alt="Makefile" />
 </p>
 <p align="center">
   <strong>Web &amp; UI</strong><br />
@@ -73,8 +67,7 @@
 </p>
 <p align="center">
   <strong>Chain &amp; security</strong><br />
-  <img src="https://img.shields.io/badge/Local%20chains-7aa2f7?style=flat-square&labelColor=1a1b27" alt="Local chains" />
-  <a href="https://solana.com/"><img src="https://img.shields.io/badge/Solana%20demos-9945FF?style=flat-square&logo=solana&logoColor=white&labelColor=1a1b27" alt="Solana" /></a>
+  <a href="https://solana.com/"><img src="https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white&labelColor=1a1b27" alt="Solana" /></a>
   <img src="https://img.shields.io/badge/Crypto%20%26%20protocols-7aa2f7?style=flat-square&labelColor=1a1b27" alt="Cryptography" />
   <img src="https://img.shields.io/badge/Hardhat-F7DF1E?style=flat-square&labelColor=1a1b27" alt="Hardhat" />
   <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" /></a>

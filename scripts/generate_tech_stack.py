@@ -27,6 +27,12 @@ LANG_SHIELDS: dict[str, tuple[str, str, str]] = {
     "CSS": ("1572B6", "css3", "https://developer.mozilla.org/docs/Web/CSS"),
 }
 
+# Languages omitted from the profile README Languages row.
+LANG_EXCLUDE: set[str] = {"TeX", "Shell", "PowerShell", "NSIS", "Batchfile", "Makefile"}
+
+# First in this order when present; remaining languages follow by usage (bytes).
+LANG_PRIORITY: tuple[str, ...] = ("Python", "Java", "Rust", "TypeScript")
+
 TECH_CATALOG: list[dict[str, str | tuple[str, ...]]] = [
     # Web & UI
     {"section": "Web &amp; UI", "name": "React", "match": ("react",), "badge": '<a href="https://react.dev/"><img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB&labelColor=1a1b27" alt="React" /></a>'},
@@ -41,8 +47,7 @@ TECH_CATALOG: list[dict[str, str | tuple[str, ...]]] = [
     # Chain & security
     {"section": "Chain &amp; security", "name": "Hardhat", "match": ("hardhat",), "badge": '<img src="https://img.shields.io/badge/Hardhat-F7DF1E?style=flat-square&labelColor=1a1b27" alt="Hardhat" />'},
     {"section": "Chain &amp; security", "name": "Solidity", "match": ("solidity",), "badge": '<a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" /></a>'},
-    {"section": "Chain &amp; security", "name": "Local chains", "match": ("blockchain", "ethereum", "evm"), "badge": '<img src="https://img.shields.io/badge/Local%20chains-7aa2f7?style=flat-square&labelColor=1a1b27" alt="Local chains" />'},
-    {"section": "Chain &amp; security", "name": "Solana demos", "match": ("solana", "anchor"), "badge": '<a href="https://solana.com/"><img src="https://img.shields.io/badge/Solana%20demos-9945FF?style=flat-square&logo=solana&logoColor=white&labelColor=1a1b27" alt="Solana" /></a>'},
+    {"section": "Chain &amp; security", "name": "Solana", "match": ("solana", "anchor"), "badge": '<a href="https://solana.com/"><img src="https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white&labelColor=1a1b27" alt="Solana" /></a>'},
     {"section": "Chain &amp; security", "name": "Crypto & protocols", "match": ("crypto", "x25519", "ed25519", "chacha20", "aead"), "badge": '<img src="https://img.shields.io/badge/Crypto%20%26%20protocols-7aa2f7?style=flat-square&labelColor=1a1b27" alt="Cryptography" />'},
     # DevOps
     {"section": "DevOps", "name": "Docker", "match": ("docker",), "badge": '<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=1a1b27" alt="Docker" /></a>'},
@@ -97,6 +102,21 @@ def aggregate_languages(repos: list[dict], token: str | None) -> dict[str, int]:
         for lang, bytes_count in langs.items():
             totals[lang] = totals.get(lang, 0) + int(bytes_count or 0)
     return totals
+
+
+def order_language_rows(sorted_items: list[tuple[str, int]]) -> list[tuple[str, int]]:
+    """Exclude configured langs; put Python, Java, Rust, TypeScript first when present."""
+    filtered = [(lang, b) for lang, b in sorted_items if lang not in LANG_EXCLUDE]
+    priority_set = set(LANG_PRIORITY)
+    priority: list[tuple[str, int]] = []
+    for p in LANG_PRIORITY:
+        for lang, b in filtered:
+            if lang == p:
+                priority.append((lang, b))
+                break
+    rest = [(lang, b) for lang, b in filtered if lang not in priority_set]
+    rest.sort(key=lambda kv: (-kv[1], kv[0]))
+    return priority + rest
 
 
 def language_badge(lang: str) -> str:
@@ -184,12 +204,16 @@ def main() -> int:
     totals = aggregate_languages(filtered, token)
     sorted_langs = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)
     picked_langs = sorted_langs if max_langs is None else sorted_langs[:max_langs]
-    lang_badges = [language_badge(lang) for lang, _ in picked_langs]
+    ordered = order_language_rows(picked_langs)
+    lang_badges = [language_badge(lang) for lang, _ in ordered]
     if not lang_badges:
         lang_badges = [
             language_badge("Python"),
+            language_badge("Java"),
             language_badge("Rust"),
             language_badge("TypeScript"),
+            language_badge("HTML"),
+            language_badge("CSS"),
             language_badge("JavaScript"),
             language_badge("Solidity"),
         ]
