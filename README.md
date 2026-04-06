@@ -125,10 +125,19 @@ A collection of AUEB coursework projects by Stelios Vasileiou, covering blockcha
 </p>
 </td>
 <td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/stuchain">stuchain</a></strong> <strong>★ 0</strong></p>
+
+*No description yet.*
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/ctf-maze-arena">ctf-maze-arena</a></strong> <strong>★ 0</strong></p>
 <p align="left">
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Dockerfile-64748b?style=flat-square&labelColor=1a1b27" alt="Dockerfile" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
   <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
 </p>
@@ -142,24 +151,16 @@ A web arena for maze generation, algorithm visualization, and solver comparison.
   <img src="https://img.shields.io/badge/ctf-8b5cf6?style=flat-square&labelColor=1a1b27" alt="topic: ctf" />
 </p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/stay-ops-planner">stay-ops-planner</a></strong> <strong>★ 0</strong></p>
 <p align="left">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Dockerfile-64748b?style=flat-square&labelColor=1a1b27" alt="Dockerfile" />
   <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
+  <img src="https://img.shields.io/badge/Dockerfile-64748b?style=flat-square&labelColor=1a1b27" alt="Dockerfile" />
 </p>
 
 Internal tool for short-term rental ops: sync bookings from a channel manager, assign each stay to a physical unit, avoid double-booking, and coordinate cleaning and maintenance
-
-</td>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/stuchain">stuchain</a></strong> <strong>★ 0</strong></p>
-
-*No description yet.*
 
 </td>
 </tr>
