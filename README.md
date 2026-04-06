@@ -179,8 +179,8 @@ Internal tool for short-term rental ops: sync bookings from a channel manager, a
   <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" /></a>
   <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" /></a>
   <a href="https://developer.mozilla.org/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" /></a>
-  <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" /></a>
   <img src="https://img.shields.io/badge/Dockerfile-64748b?style=flat-square&labelColor=1a1b27" alt="Dockerfile" />
+  <a href="https://soliditylang.org/"><img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=1a1b27" alt="Solidity" /></a>
 </p>
 <p align="center">
   <strong>Web &amp; UI</strong><br />
