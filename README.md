@@ -20,7 +20,7 @@
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong> <strong>★ 3</strong></p>
+<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong> <strong>★ 5</strong></p>
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
   <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" />
@@ -156,8 +156,10 @@ A web arena for maze generation, algorithm visualization, and solver comparison.
 <p><strong><a href="https://github.com/stuchain/stay-ops-planner">stay-ops-planner</a></strong> <strong>★ 0</strong></p>
 <p align="left">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
   <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Batchfile-64748b?style=flat-square&labelColor=1a1b27" alt="Batchfile" />
+  <img src="https://img.shields.io/badge/PLpgSQL-64748b?style=flat-square&labelColor=1a1b27" alt="PLpgSQL" />
   <img src="https://img.shields.io/badge/Dockerfile-64748b?style=flat-square&labelColor=1a1b27" alt="Dockerfile" />
 </p>
 
