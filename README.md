@@ -169,11 +169,12 @@ A web arena for maze generation, algorithm visualization, and solver comparison.
 <p><strong><a href="https://github.com/stuchain/stay-ops-planner">stay-ops-planner</a></strong> <strong>★ 0</strong></p>
 <p align="left">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
   <img src="https://img.shields.io/badge/Batchfile-64748b?style=flat-square&labelColor=1a1b27" alt="Batchfile" />
   <img src="https://img.shields.io/badge/PLpgSQL-64748b?style=flat-square&labelColor=1a1b27" alt="PLpgSQL" />
   <img src="https://img.shields.io/badge/Dockerfile-64748b?style=flat-square&labelColor=1a1b27" alt="Dockerfile" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" />
 </p>
 
 Internal tool for short-term rental ops: sync bookings from a channel manager, assign each stay to a physical unit, avoid double-booking, and coordinate cleaning and maintenance
