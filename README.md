@@ -180,6 +180,15 @@ A web arena for maze generation, algorithm visualization, and solver comparison.
 Internal tool for short-term rental ops: sync bookings from a channel manager, assign each stay to a physical unit, avoid double-booking, and coordinate cleaning and maintenance
 
 </td>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/stuchain/stuchain-auction-dapp">stuchain-auction-dapp</a></strong> <strong>★ 0</strong></p>
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" />
+</p>
+
+*No description yet.*
+
+</td>
 </tr>
 </table>
 <!-- FEATURED-OPTION2:END -->
