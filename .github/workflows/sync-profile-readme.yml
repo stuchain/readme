@@ -8,6 +8,15 @@ on:
       - "README.md"
       - "dist/**"
       - ".github/workflows/sync-profile-readme.yml"
+  # Commits created with GITHUB_TOKEN do not trigger other workflows. Listen for
+  # the generator workflows themselves so their changes reach the profile repo.
+  workflow_run:
+    workflows:
+      - Generate contribution snake
+      - Update featured projects
+      - Update tech stack
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
@@ -15,6 +24,7 @@ permissions:
 
 jobs:
   sync:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     env:
       PROFILE_SYNC_TOKEN: ${{ secrets.PROFILE_SYNC_TOKEN }}
