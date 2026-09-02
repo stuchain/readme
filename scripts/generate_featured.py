@@ -176,9 +176,8 @@ def render_repo_option2_cell(owner: str, r: dict, max_topics: int) -> str:
     name = r["name"]
     url = r["html_url"]
     stars = r.get("stargazers_count") or 0
-    desc = sanitize_description(r.get("description"))
-    topics = r.get("topics") or []
-    all_langs = r.get("_all_languages") or []
+    desc = sanitize_description(r.get("description"), limit=180)
+    all_langs = (r.get("_all_languages") or [])[:3]
 
     tech_parts: list[str] = []
     if all_langs:
@@ -187,21 +186,14 @@ def render_repo_option2_cell(owner: str, r: dict, max_topics: int) -> str:
             tech_parts.append(f"  {language_badge(lang)}")
         tech_parts.append("</p>")
 
-    tags_parts: list[str] = []
-    if topics[:max_topics]:
-        tags_parts = ['<p align="left">', '  <strong>Tags:</strong>']
-        for t in topics[:max_topics]:
-            tags_parts.append(f"  {topic_badge(t)}")
-        tags_parts.append("</p>")
+    star_text = f" · ★ {stars}" if stars else ""
 
     return "\n".join(
         [
-            f'<p><strong><a href="{url}">{name}</a></strong> <strong>★ {stars}</strong></p>',
+            f'<p><strong><a href="{url}">{name}</a></strong>{star_text}</p>',
             *(tech_parts if tech_parts else []),
             "",
             desc,
-            "",
-            *(tags_parts if tags_parts else []),
         ]
     )
 
@@ -318,6 +310,11 @@ def main() -> int:
     else:
         max_repos = int(max_featured_raw)
     max_topics = int(os.environ.get("MAX_TOPICS", "3"))
+    featured_names = [
+        name.strip()
+        for name in os.environ.get("FEATURED_REPOS", "").split(",")
+        if name.strip()
+    ]
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
 
     try:
@@ -338,7 +335,12 @@ def main() -> int:
             continue
         filtered.append(r)
 
-    filtered.sort(key=lambda x: (-(x.get("stargazers_count") or 0), x.get("pushed_at") or ""))
+    # Prefer popular projects, then the most recently maintained ones.
+    filtered.sort(key=lambda x: x.get("pushed_at") or "", reverse=True)
+    filtered.sort(key=lambda x: x.get("stargazers_count") or 0, reverse=True)
+    if featured_names:
+        by_name = {repo["name"].lower(): repo for repo in filtered}
+        filtered = [by_name[name.lower()] for name in featured_names if name.lower() in by_name]
     picked = filtered if max_repos is None else filtered[:max_repos]
     for repo in picked:
         repo["_all_languages"] = fetch_repo_languages(repo, token)

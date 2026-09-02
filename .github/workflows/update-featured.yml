@@ -39,8 +39,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
-          EXCLUDE_REPOS: readme,portfolio
-          MAX_FEATURED: "all"
+          EXCLUDE_REPOS: readme,portfolio,stuchain
+          FEATURED_REPOS: CuePoint,muzpa-auto-search,mini-secure-channel-solana,iot-oracle-gateway,AUEB,ctf-maze-arena
+          MAX_FEATURED: "6"
           MAX_TOPICS: "3"
         run: python scripts/generate_featured.py
 
