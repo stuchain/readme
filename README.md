@@ -78,7 +78,7 @@ A collection of AUEB coursework projects by Stelios Vasileiou, covering blockcha
 <p align="left">
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1b27" alt="Rust" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white&labelColor=1a1b27" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=1a1b27" alt="CSS" />
 </p>
 
 A web arena for maze generation, algorithm visualization, and solver comparison. Built with Rust + TypeScript.
