@@ -20,14 +20,14 @@
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong> · ★ 10</p>
+<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong> · ★ 11</p>
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
-  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=1a1b27" alt="Shell" />
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=1a1b27" alt="HTML" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&labelColor=1a1b27" alt="JavaScript" />
 </p>
 
-CuePoint helps DJs clean and enrich Rekordbox libraries with official Beatport metadata, fast matching, and an auditable review workflow. Latest version: 0.0.3
+Free open source desktop app for DJs: clean up your Rekordbox library with Beatport. Fix missing or wrong keys, BPM, genres and labels, find duplicates, discover new music and…
 </td>
 <td width="50%" valign="top">
 <p><strong><a href="https://github.com/stuchain/muzpa-auto-search">muzpa-auto-search</a></strong></p>
