@@ -20,7 +20,7 @@
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong> · ★ 11</p>
+<p><strong><a href="https://github.com/stuchain/CuePoint">CuePoint</a></strong> · ★ 12</p>
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1b27" alt="Python" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript" />
